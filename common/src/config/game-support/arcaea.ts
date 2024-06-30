@@ -96,12 +96,13 @@ export const ARCAEA_TOUCH_CONF = {
 
 	difficulties: {
 		type: "FIXED",
-		order: ["Past", "Present", "Future", "Beyond"],
+		order: ["Past", "Present", "Future", "Beyond", "Eternal"],
 		shorthand: {
 			Past: "PST",
 			Present: "PRS",
 			Future: "FTR",
 			Beyond: "BYD",
+			Eternal: "ETR",
 		},
 		default: "Future",
 	},

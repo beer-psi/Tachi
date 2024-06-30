@@ -1,6 +1,6 @@
 ## Chart constants
 Get the data by going to [譜面定数表](https://wikiwiki.jp/arcaea/%E8%AD%9C%E9%9D%A2%E5%AE%9A%E6%95%B0%E8%A1%A8) 
-or [譜面定数表 (Level 7以下)](https://wikiwiki.jp/arcaea/譜面定数表/譜面定数表 (Level 7以下)) and paste in the contents
+or [譜面定数表 (Level 7以下)](https://wikiwiki.jp/arcaea/%E8%AD%9C%E9%9D%A2%E5%AE%9A%E6%95%B0%E8%A1%A8/%E8%AD%9C%E9%9D%A2%E5%AE%9A%E6%95%B0%E8%A1%A8%20%28Level%207%E4%BB%A5%E4%B8%8B%29) and paste in the contents
 of this script in the browser console:
 
 ```js
@@ -15,6 +15,8 @@ of this script in the browser console:
 				return "Future";
 			case "firebrick":
 				return "Beyond";
+			case "slateblue":
+				return "Eternal";
 			default:
 				throw new Error(
 					`Unknown difficulty color ${cssColor}. Update the script and try again.`
@@ -51,7 +53,7 @@ of this script in the browser console:
 				const title = cells[offsets.title].querySelector("a.rel-wiki-page").textContent;
 				const artist = cells[offsets.artist].textContent;
 				const level = cells[offsets.level].textContent;
-				const difficulty = convertDifficulty(cells[offsets.level].style.backgroundColor);
+				const difficulty = convertDifficulty(cells[offsets.level].style.backgroundColor.toLowerCase());
 				const levelNum = Number(cells[offsets.chartConstant].textContent);
 
 				if (Number.isNaN(levelNum)) {

@@ -22,6 +22,8 @@ const MANUAL_TITLE_MAP = {
 	"ハルトピア~Utopia of Spring~": "Harutopia ~Utopia of Spring~",
 	"PRAGMATISM-RESURRECTION-": "PRAGMATISM -RESURRECTION-",
 	"Remind the Souls(Short Version)": "Remind the Souls (Short Version)",
+	"LIVHT MY W​Δ​Y": "LIVHT MY WΔY",
+	"患部で止まってすぐ溶ける～ 狂気の優曇華院": "Kanbu de Tomatte Sugu Tokeru",
 
 	// Zero idea
 	"Alice à la mode": "Alice à la mode",

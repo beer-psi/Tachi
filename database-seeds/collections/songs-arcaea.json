@@ -5433,5 +5433,731 @@
 			"아게나"
 		],
 		"title": "Arghena"
+	},
+	{
+		"altTitles": [],
+		"artist": "Kobaryo",
+		"data": {
+			"displayVersion": "5.3",
+			"songPack": "Absolute Reason"
+		},
+		"id": 360,
+		"searchTerms": [
+			"ゔぃしゃすひろいずむ",
+			"びしゃすひろいずむ",
+			"비셔스 히로이즘"
+		],
+		"title": "Vicious [ANTi] Heroism"
+	},
+	{
+		"altTitles": [],
+		"artist": "Moon Jelly & YUKIYANAGI",
+		"data": {
+			"displayVersion": "5.1",
+			"songPack": "Extend Archive 2"
+		},
+		"id": 361,
+		"searchTerms": [
+			"fantasy",
+			"ふぁんたじー",
+			"판타지"
+		],
+		"title": "FANTA5Y"
+	},
+	{
+		"altTitles": [],
+		"artist": "sleepless, Gardens, aspect",
+		"data": {
+			"displayVersion": "5.1",
+			"songPack": "Shifting Veil (Lasting Eden)"
+		},
+		"id": 362,
+		"searchTerms": [
+			"とらんしえんとすぺーす",
+			"트랜시언트 스페이스",
+			"트랜지언트 스페이스"
+		],
+		"title": "Transient Space"
+	},
+	{
+		"altTitles": [],
+		"artist": "天束 feat.Sennzai",
+		"data": {
+			"displayVersion": "5.1",
+			"songPack": "Shifting Veil (Lasting Eden)"
+		},
+		"id": 363,
+		"searchTerms": [
+			"ねーむれすぱっしょん",
+			"네임리스 패션"
+		],
+		"title": "Nameless Passion"
+	},
+	{
+		"altTitles": [],
+		"artist": "Katali",
+		"data": {
+			"displayVersion": "5.1",
+			"songPack": "Shifting Veil (Lasting Eden)"
+		},
+		"id": 364,
+		"searchTerms": [
+			"てらぼると",
+			"테라볼트"
+		],
+		"title": "TeraVolt"
+	},
+	{
+		"altTitles": [],
+		"artist": "C-Show",
+		"data": {
+			"displayVersion": "5.2",
+			"songPack": "Collaboration Chapter 2 (WACCA)"
+		},
+		"id": 365,
+		"searchTerms": [
+			"すとらとらいなー",
+			"스트라토라이너"
+		],
+		"title": "Stratoliner"
+	},
+	{
+		"altTitles": [],
+		"artist": "USAO & DJ Genki feat. ルーン(CV:河瀬茉希)",
+		"data": {
+			"displayVersion": "5.2",
+			"songPack": "Collaboration Chapter 2 (WACCA)"
+		},
+		"id": 366,
+		"searchTerms": [
+			"Ouverture",
+			"おばーちゅあ",
+			"오버쳐"
+		],
+		"title": "Ouvertüre"
+	},
+	{
+		"altTitles": [],
+		"artist": "USAO",
+		"data": {
+			"displayVersion": "5.2",
+			"songPack": "Collaboration Chapter 2 (WACCA)"
+		},
+		"id": 367,
+		"searchTerms": [
+			"えくすとりーむ",
+			"익스트림",
+			"엑스트림"
+		],
+		"title": "XTREME"
+	},
+	{
+		"altTitles": [],
+		"artist": "\"漆黒\"の堕天使《Gram》†Versus†\"聖刻\"の熾天使《Gram》",
+		"data": {
+			"displayVersion": "5.2",
+			"songPack": "Collaboration Chapter 2 (WACCA)"
+		},
+		"id": 368,
+		"searchTerms": [
+			"えでん",
+			"에덴"
+		],
+		"title": "eden"
+	},
+	{
+		"altTitles": [],
+		"artist": "DJ Noriken",
+		"data": {
+			"displayVersion": "5.2",
+			"songPack": "Collaboration Chapter 2 (WACCA)"
+		},
+		"id": 369,
+		"searchTerms": [
+			"めたみすてりあ",
+			"메타 미스테리아"
+		],
+		"title": "Meta-Mysteria"
+	},
+	{
+		"altTitles": [
+			"アローンアンドローン"
+		],
+		"artist": "Ponchi♪ feat.はぁち",
+		"data": {
+			"displayVersion": "5.2",
+			"songPack": "Extend Archive 2"
+		},
+		"id": 370,
+		"searchTerms": [
+			"얼론 앤 론",
+			"얼론 앤드 론"
+		],
+		"title": "Alone & Lorn"
+	},
+	{
+		"altTitles": [],
+		"artist": "打打だいず",
+		"data": {
+			"displayVersion": "5.2",
+			"songPack": "Memory Archive"
+		},
+		"id": 371,
+		"searchTerms": [
+			"うぃっしゅあぽんあすのー",
+			"うぃっしゅあぽんあすのう",
+			"위시 어폰 어 스노우"
+		],
+		"title": "Wish Upon a Snow"
+	},
+	{
+		"altTitles": [
+			"患部で止まってすぐ溶ける　〜 狂気の優曇華院"
+		],
+		"artist": "ARM＋夕野ヨシミ (IOSYS) feat. miko",
+		"data": {
+			"displayVersion": "5.2",
+			"songPack": "Memory Archive"
+		},
+		"id": 372,
+		"searchTerms": [
+			"kyouki no udongein",
+			"かんぶでとまってすぐとけるきょうきのうどんげいん",
+			"칸부데 토맛테 스구 토케루 쿄우키노 우동게인",
+			"환부에서 멈춰서 바로 녹는다 광기의 우동게인"
+		],
+		"title": "Kanbu de Tomatte Sugu Tokeru"
+	},
+	{
+		"altTitles": [],
+		"artist": "onoken",
+		"data": {
+			"displayVersion": "5.2",
+			"songPack": "Extend Archive 2"
+		},
+		"id": 373,
+		"searchTerms": [
+			"ふぇりすふぁいなるりみっくす",
+			"펠리스 파이널 리믹스"
+		],
+		"title": "felys final remix"
+	},
+	{
+		"altTitles": [],
+		"artist": "ETIA.",
+		"data": {
+			"displayVersion": "5.2",
+			"songPack": "Extend Archive 2"
+		},
+		"id": 374,
+		"searchTerms": [
+			"おんあんどおん",
+			"온 앤 온"
+		],
+		"title": "On And On!! feat. Jenga"
+	},
+	{
+		"altTitles": [],
+		"artist": "かめりあ feat. STΔRLIVHT",
+		"data": {
+			"displayVersion": "5.2",
+			"songPack": "Memory Archive"
+		},
+		"id": 375,
+		"searchTerms": [
+			"light my way",
+			"らいとまいうぇい",
+			"라이트 마이 웨이",
+			"라잇 마이 웨이"
+		],
+		"title": "LIVHT MY WΔY"
+	},
+	{
+		"altTitles": [
+			"蛍火の雪"
+		],
+		"artist": "Endorfin.",
+		"data": {
+			"displayVersion": "5.2",
+			"songPack": "Sunset Radiance"
+		},
+		"id": 376,
+		"searchTerms": [
+			"ほたるびのゆき",
+			"호타루비노 유키",
+			"반딧불의 눈"
+		],
+		"title": "Hotarubi no Yuki"
+	},
+	{
+		"altTitles": [],
+		"artist": "Junk",
+		"data": {
+			"displayVersion": "5.3",
+			"songPack": "Arcaea"
+		},
+		"id": 377,
+		"searchTerms": [
+			"ざふぉーみゅら",
+			"더 포뮬라"
+		],
+		"title": "The Formula"
+	},
+	{
+		"altTitles": [],
+		"artist": "r0y",
+		"data": {
+			"displayVersion": "5.3",
+			"songPack": "Memory Archive"
+		},
+		"id": 378,
+		"searchTerms": [
+			"るなろっさ",
+			"루나 로사",
+			"루나 롯사"
+		],
+		"title": "Luna Rossa"
+	},
+	{
+		"altTitles": [],
+		"artist": "DJ Noriken",
+		"data": {
+			"displayVersion": "5.4",
+			"songPack": "Arcaea"
+		},
+		"id": 379,
+		"searchTerms": [
+			"じんぐる",
+			"징글"
+		],
+		"title": "Jingle"
+	},
+	{
+		"altTitles": [],
+		"artist": "Powerless feat. Sennzai",
+		"data": {
+			"displayVersion": "5.4",
+			"songPack": "Memory Archive"
+		},
+		"id": 380,
+		"searchTerms": [
+			"いのせんす",
+			"이노센스"
+		],
+		"title": "Innocence"
+	},
+	{
+		"altTitles": [],
+		"artist": "Tatsh",
+		"data": {
+			"displayVersion": "5.4",
+			"songPack": "Memory Archive"
+		},
+		"id": 381,
+		"searchTerms": [
+			"あいおのすとりーむ",
+			"아이오노스트림"
+		],
+		"title": "IONOSTREAM"
+	},
+	{
+		"altTitles": [],
+		"artist": "LeaF",
+		"data": {
+			"displayVersion": "5.4",
+			"songPack": "Extend Archive 2"
+		},
+		"id": 382,
+		"searchTerms": [
+			"あれふぜろ",
+			"알레프 제로"
+		],
+		"title": "Aleph-0"
+	},
+	{
+		"altTitles": [],
+		"artist": "Srav3R & DJ Noriken",
+		"data": {
+			"displayVersion": "5.4",
+			"songPack": "Memory Archive"
+		},
+		"id": 383,
+		"searchTerms": [
+			"ますかれーどれぎおん",
+			"마스커레이드 리전",
+			"마스커레이드 레기온"
+		],
+		"title": "Masquerade Legion"
+	},
+	{
+		"altTitles": [
+			"狂恋ROMANCE"
+		],
+		"artist": "REDALiCE vs DJ Myosuke feat. DELUTAYA",
+		"data": {
+			"displayVersion": "5.4",
+			"songPack": "Memory Archive"
+		},
+		"id": 384,
+		"searchTerms": [
+			"きょうれんろまんす",
+			"쿄렌 로맨스",
+			"광연 로맨스"
+		],
+		"title": "KYOREN ROMANCE"
+	},
+	{
+		"altTitles": [],
+		"artist": "owl＊tree",
+		"data": {
+			"displayVersion": "5.4",
+			"songPack": "Memory Archive"
+		},
+		"id": 385,
+		"searchTerms": [
+			"こばっと",
+			"こゔぁっと",
+			"쿠오밧",
+			"쿼밧",
+			"코밧"
+		],
+		"title": "Qovat"
+	},
+	{
+		"altTitles": [],
+		"artist": "暁Records",
+		"data": {
+			"displayVersion": "5.5",
+			"songPack": "World Extend 3"
+		},
+		"id": 386,
+		"searchTerms": [
+			"はろーへる",
+			"헬로헬"
+		],
+		"title": "HELLOHELL"
+	},
+	{
+		"altTitles": [],
+		"artist": "Kolaa & 熊子",
+		"data": {
+			"displayVersion": "5.5",
+			"songPack": "World Extend 3"
+		},
+		"id": 387,
+		"searchTerms": [
+			"ichirin",
+			"いちりん",
+			"이치린"
+		],
+		"title": "〇、"
+	},
+	{
+		"altTitles": [],
+		"artist": "Supa7onyz",
+		"data": {
+			"displayVersion": "5.5",
+			"songPack": "World Extend 3"
+		},
+		"id": 388,
+		"searchTerms": [
+			"あうぇーくんいんるいんず",
+			"어웨이큰 인 루인즈"
+		],
+		"title": "Awaken In Ruins"
+	},
+	{
+		"altTitles": [],
+		"artist": "saaa",
+		"data": {
+			"displayVersion": "5.5",
+			"songPack": "World Extend 3"
+		},
+		"id": 389,
+		"searchTerms": [
+			"もーにんぐるーむ",
+			"모닝글룸"
+		],
+		"title": "MORNINGLOOM"
+	},
+	{
+		"altTitles": [],
+		"artist": "siqlo",
+		"data": {
+			"displayVersion": "5.5",
+			"songPack": "World Extend 3"
+		},
+		"id": 390,
+		"searchTerms": [
+			"りーさるぼるてーじ",
+			"리썰 볼티지",
+			"리썰 볼테이지"
+		],
+		"title": "Lethal Voltage"
+	},
+	{
+		"altTitles": [],
+		"artist": "TAK × Zekk",
+		"data": {
+			"displayVersion": "5.5",
+			"songPack": "Memory Archive"
+		},
+		"id": 391,
+		"searchTerms": [
+			"みりね",
+			"みりねー",
+			"미리내"
+		],
+		"title": "MIRINAE"
+	},
+	{
+		"altTitles": [],
+		"artist": "nitro (lowiro)",
+		"data": {
+			"displayVersion": "5.5",
+			"songPack": "Memory Archive"
+		},
+		"id": 392,
+		"searchTerms": [
+			"うるとらでぃあくそんえぬすりー",
+			"うるとらじあくそんえぬすりー",
+			"うるとらだいあくそんえぬすりー",
+			"あるとれじあくそんえぬすりー",
+			"あるとれでぃあくそんえぬすりー",
+			"울트라디악손 엔쓰리",
+			"울트라다이악손 엔쓰리",
+			"울트레이디악손 엔쓰리",
+			"울트레이디악손 엔쓰리"
+		],
+		"title": "ultradiaxon-N3"
+	},
+	{
+		"altTitles": [],
+		"artist": "rider",
+		"data": {
+			"displayVersion": "5.6",
+			"songPack": "World Extend 3"
+		},
+		"id": 393,
+		"searchTerms": [
+			"りーぶおーるびはいんど",
+			"りーゔおーるびはいんど",
+			"리브 올 비하인드"
+		],
+		"title": "Leave All Behind"
+	},
+	{
+		"altTitles": [],
+		"artist": "Sakuzyo",
+		"data": {
+			"displayVersion": "5.6",
+			"songPack": "Memory Archive"
+		},
+		"id": 394,
+		"searchTerms": [
+			"でぃすとーてっどふぇいと",
+			"디스토디드 페이트"
+		],
+		"title": "Distorted Fate"
+	},
+	{
+		"altTitles": [],
+		"artist": "baker feat. botan",
+		"data": {
+			"displayVersion": "5.6",
+			"songPack": "Memory Archive"
+		},
+		"id": 395,
+		"searchTerms": [
+			"ふろーてぃんぐわーるど",
+			"플로팅 월드"
+		],
+		"title": "Floating World"
+	},
+	{
+		"altTitles": [],
+		"artist": "ていぬ",
+		"data": {
+			"displayVersion": "5.6",
+			"songPack": "Memory Archive"
+		},
+		"id": 396,
+		"searchTerms": [
+			"くろまふぃる",
+			"くろーまふぃる",
+			"크로마필"
+		],
+		"title": "Chromafill"
+	},
+	{
+		"altTitles": [
+			"Desive"
+		],
+		"artist": "MisomyL",
+		"data": {
+			"displayVersion": "5.6",
+			"songPack": "Memory Archive"
+		},
+		"id": 397,
+		"searchTerms": [
+			"desive",
+			"でぃざいゔ",
+			"디자이브"
+		],
+		"title": "Désive"
+	},
+	{
+		"altTitles": [
+			"エピクロスの虹はもう見えない"
+		],
+		"artist": "SYNC.ART'S feat.Misato",
+		"data": {
+			"displayVersion": "5.7",
+			"songPack": "Arcaea"
+		},
+		"id": 398,
+		"searchTerms": [
+			"えぴくろすのにじはもうみえない",
+			"히든 레인보우즈 오브 에피쿠로스",
+			"히든 레인보우 오브 에피쿠로스",
+			"에피쿠로스의 무지개는 이제 보이지 않아",
+			"에피쿠로스노 니지와 모 미에나이"
+		],
+		"title": "Hidden Rainbows of Epicurus"
+	},
+	{
+		"altTitles": [
+			"黄昏の協奏曲"
+		],
+		"artist": "Scarlette",
+		"data": {
+			"displayVersion": "5.7",
+			"songPack": "Memory Archive"
+		},
+		"id": 399,
+		"searchTerms": [
+			"たそがれのきょうそうきょく",
+			"트와일라잇 콘체르토",
+			"황혼의 협주곡",
+			"타소가레노 쿄소쿄쿠"
+		],
+		"title": "Twilight Concerto"
+	},
+	{
+		"altTitles": [],
+		"artist": "DJ SHARPNEL",
+		"data": {
+			"displayVersion": "5.7",
+			"songPack": "World Extend 3"
+		},
+		"id": 400,
+		"searchTerms": [
+			"おーるどすくーるさるべーじ",
+			"올드 스쿨 샐비지"
+		],
+		"title": "Old School Salvage"
+	},
+	{
+		"altTitles": [],
+		"artist": "M-Project",
+		"data": {
+			"displayVersion": "5.7",
+			"songPack": "Memory Archive"
+		},
+		"id": 401,
+		"searchTerms": [
+			"びゅーてぃふるどりーまー",
+			"뷰티풀 드리머"
+		],
+		"title": "Beautiful Dreamer"
+	},
+	{
+		"altTitles": [],
+		"artist": "m1dy",
+		"data": {
+			"displayVersion": "5.7",
+			"songPack": "Memory Archive"
+		},
+		"id": 402,
+		"searchTerms": [
+			"ばっくとぅべーしっくす",
+			"ばっくとぅーべーしっくす",
+			"백 투 베이직",
+			"백 투 베이직스"
+		],
+		"title": "Back to Basics"
+	},
+	{
+		"altTitles": [],
+		"artist": "KARUT",
+		"data": {
+			"displayVersion": "5.8",
+			"songPack": "Memory Archive"
+		},
+		"id": 403,
+		"searchTerms": [
+			"すたーげーとえくすとりーむ",
+			"스트레인지 익스트림"
+		],
+		"title": "STARGATE EXTREME"
+	},
+	{
+		"altTitles": [],
+		"artist": "渡部恭久",
+		"data": {
+			"displayVersion": "5.8",
+			"songPack": "Groove Coaster Chapter 2 (Groove Coaster)"
+		},
+		"id": 404,
+		"searchTerms": [
+			"yasuhisa watanabe",
+			"さいんおぶてんぽいんとふぁいぶきろめーとる",
+			"사인 오브 텐 포인트 파이브 킬로미터"
+		],
+		"title": "Sign of \"10.5km\""
+	},
+	{
+		"altTitles": [],
+		"artist": "Lite Show Magic",
+		"data": {
+			"displayVersion": "5.8",
+			"songPack": "Groove Coaster Chapter 2 (Groove Coaster)"
+		},
+		"id": 405,
+		"searchTerms": [
+			"temptation",
+			"てんぷてーしょん",
+			"템테이션"
+		],
+		"title": "10pt8ion"
+	},
+	{
+		"altTitles": [],
+		"artist": "COSIO",
+		"data": {
+			"displayVersion": "5.8",
+			"songPack": "Groove Coaster Chapter 2 (Groove Coaster)"
+		},
+		"id": 406,
+		"searchTerms": [
+			"ぶらっくまいんど",
+			"블랙 마인드"
+		],
+		"title": "Black MInD"
+	},
+	{
+		"altTitles": [],
+		"artist": "VOLTA",
+		"data": {
+			"displayVersion": "5.8",
+			"songPack": "Memory Archive"
+		},
+		"id": 407,
+		"searchTerms": [
+			"はいぱーびじょん",
+			"はいぱーゔぃじょん",
+			"하이퍼 비전"
+		],
+		"title": "HYPER VISION"
 	}
 ]

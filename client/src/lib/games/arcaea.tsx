@@ -15,6 +15,7 @@ const ARCAEA_DIFFICULTY_COLORS: GPTClientImplementation<GPTStrings["arcaea"]>["d
 		Present: COLOUR_SET.paleGreen,
 		Future: COLOUR_SET.purple,
 		Beyond: COLOUR_SET.vibrantRed,
+		Eternal: COLOUR_SET.vibrantPurple,
 	};
 
 const ARCAEA_ENUM_COLORS: GPTClientImplementation<GPTStrings["arcaea"]>["enumColours"] = {

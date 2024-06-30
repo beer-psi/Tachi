@@ -94,6 +94,8 @@ function convertDifficulty(input: integer): Difficulties["arcaea:Touch"] {
 			return "Future";
 		case 3:
 			return "Beyond";
+		case 4:
+			return "Eternal";
 	}
 
 	throw new Error(
@@ -128,13 +130,13 @@ function convertPackName(packsByID: Record<string, PacklistEntry>, packID: strin
 }
 
 const program = new Command();
-program.requiredOption("-i, --input <songlist>");
+program.requiredOption("-s, --songlist <songlist>");
 program.requiredOption("-p, --packlist <packlist>");
 
 program.parse(process.argv);
 const options = program.opts();
 
-const content = fs.readFileSync(options.input, { encoding: "utf-8" });
+const content = fs.readFileSync(options.songlist, { encoding: "utf-8" });
 const data: { songs: Array<SonglistEntry> } = JSON.parse(content);
 
 const packlistContent = fs.readFileSync(options.packlist, { encoding: "utf-8" });
@@ -158,8 +160,8 @@ for (const chart of existingChartDocs) {
 		console.warn(`Chart ${chart.songID} does not belong to any song?`);
 		continue;
 	}
-	inGameIDToSongsMap.set(chart.data.inGameID, song);
-	existingCharts.set(`${chart.data.inGameID}-${chart.difficulty}`, chart);
+	inGameIDToSongsMap.set(chart.data.inGameStrID, song);
+	existingCharts.set(`${chart.data.inGameStrID}-${chart.difficulty}`, chart);
 }
 
 const getNewSongID = GetFreshSongIDGenerator("arcaea");
@@ -168,8 +170,8 @@ const newSongs: Array<SongDocument<"arcaea">> = [];
 const newCharts: Array<ChartDocument<"arcaea:Touch">> = [];
 
 for (const entry of data.songs) {
-	const inGameID = entry.id;
-	let possibleSongs = inGameIDToSongsMap.get(inGameID);
+	const inGameStrID = entry.id;
+	let possibleSongs = inGameIDToSongsMap.get(inGameStrID);
 
 	const searchTerms = Object.values(entry.search_title ?? {})
 		.flatMap((t) => t)
@@ -199,7 +201,7 @@ for (const entry of data.songs) {
 
 		possibleSongs = [songDoc];
 		newSongs.push(songDoc);
-		inGameIDToSongsMap.set(inGameID, songDoc);
+		inGameIDToSongsMap.set(inGameStrID, songDoc);
 	}
 
 	for (const chart of entry.difficulties) {
@@ -215,7 +217,7 @@ for (const entry of data.songs) {
 		}
 
 		const difficulty = convertDifficulty(chart.ratingClass);
-		const exists = existingCharts.get(`${inGameID}-${difficulty}`);
+		const exists = existingCharts.get(`${inGameStrID}-${difficulty}`);
 
 		if (exists) {
 			// update chart levels
@@ -251,13 +253,13 @@ for (const entry of data.songs) {
 
 			song = songDoc;
 			newSongs.push(songDoc);
-			inGameIDToSongsMap.set(inGameID, songDoc);
+			inGameIDToSongsMap.set(inGameStrID, songDoc);
 		} else {
 			const title = chart.title_localized?.en ?? entry.title_localized.en;
 			const possibleSong = possibleSongs.find((e) => e.title === title);
 
 			if (!possibleSong) {
-				console.error(`No song with inGameID ${inGameID} matches title ${title}?`);
+				console.error(`No song with inGameStrID ${inGameStrID} matches title ${title}?`);
 				continue;
 			}
 
@@ -274,7 +276,7 @@ for (const entry of data.songs) {
 			versions: ["mobile"],
 			playtype: "Touch",
 			data: {
-				inGameID,
+				inGameStrID,
 				// Filled in later, but not by this script
 				notecount: 0,
 			},

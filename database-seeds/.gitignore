@@ -6,3 +6,7 @@ scripts/single-time/*
 scripts/rerunners/bpi-output.json
 scripts/rerunners/aix-ina/*.json
 
+scripts/rerunners/arcaea/cb
+scripts/rerunners/arcaea/dl
+scripts/rerunners/arcaea/wikiwiki-arcaea/*.json
+scripts/rerunners/arcaea/notecounts/charts
