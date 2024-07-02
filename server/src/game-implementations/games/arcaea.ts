@@ -21,6 +21,13 @@ export const ARCAEA_IMPL: GPTServerImplementation<GPTStrings["arcaea"]> = {
 
 			return true;
 		},
+		shinyPure: (shinyPure, chart) => {
+			if (shinyPure > chart.data.notecount) {
+				return `The number of shiny PUREs cannot exceed ${chart.data.notecount} for this chart.`;
+			}
+
+			return true;
+		}
 	},
 	derivers: {
 		grade: ({ score }) => GetGrade(ARCAEA_GBOUNDARIES, score),

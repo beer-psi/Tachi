@@ -66,12 +66,13 @@ const ARCAEA_COLORS: GPTClientImplementation<GPTStrings["arcaea"]>["classColours
 
 const ARCAEA_SCORE_HEADERS: GPTClientImplementation<GPTStrings["arcaea"]>["scoreHeaders"] = [
 	["Score", "Score", NumericSOV((x) => x.scoreData.score)],
-	["Far - Lost", "Far - Lost", NumericSOV((x) => x.scoreData.score)],
+	["Judgements", "Hits", NumericSOV((x) => x.scoreData.score)],
 	["Lamp", "Lamp", NumericSOV((x) => x.scoreData.enumIndexes.lamp)],
 ];
 
 const ArcaeaCoreCells: GPTClientImplementation<GPTStrings["arcaea"]>["scoreCoreCells"] = ({
 	sc,
+	chart,
 }) => (
 	<>
 		<MillionsScoreCell
@@ -79,7 +80,7 @@ const ArcaeaCoreCells: GPTClientImplementation<GPTStrings["arcaea"]>["scoreCoreC
 			grade={sc.scoreData.grade}
 			score={sc.scoreData.score}
 		/>
-		<ArcaeaJudgementCell score={sc} />
+		<ArcaeaJudgementCell score={sc} chart={chart} />
 		<LampCell lamp={sc.scoreData.lamp} colour={GetEnumColour(sc, "lamp")} />
 	</>
 );

@@ -1,8 +1,9 @@
 import { FAST_SLOW_MAXCOMBO } from "./_common";
-import { FmtNum } from "../../utils/util";
+import { FmtNum, FmtPercent } from "../../utils/util";
 import { ClassValue, ToDecimalPlaces, zodNonNegativeInt } from "../config-utils";
 import { z } from "zod";
 import type { INTERNAL_GAME_CONFIG, INTERNAL_GAME_PT_CONFIG } from "../../types/internals";
+import { p } from "prudence";
 
 export const ARCAEA_CONF = {
 	name: "Arcaea",
@@ -68,7 +69,22 @@ export const ARCAEA_TOUCH_CONF = {
 	defaultMetric: "score",
 	preferredDefaultEnum: "grade",
 
-	optionalMetrics: FAST_SLOW_MAXCOMBO,
+	optionalMetrics: {
+		...FAST_SLOW_MAXCOMBO,
+		shinyPure: {
+			type: "INTEGER",
+			chartDependentMax: true,
+			formatter: FmtNum,
+			partOfScoreID: true,
+			description: "The number of \"shiny\" PURE judgements received."
+		},
+		gauge: {
+			type: "INTEGER",
+			validate: p.isBetween(0, 100),
+			formatter: FmtPercent,
+			description: "The amount of life left in the gauge at the end of the chart.",
+		}
+	},
 
 	scoreRatingAlgs: {
 		potential: {
