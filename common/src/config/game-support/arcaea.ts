@@ -8,7 +8,7 @@ import { p } from "prudence";
 export const ARCAEA_CONF = {
 	name: "Arcaea",
 	// Potential future controller playtype support?
-	playtypes: ["Touch"],
+	playtypes: ["Touch", "Controller"],
 	songData: z.strictObject({
 		displayVersion: z.string(),
 		songPack: z.string(),
@@ -142,7 +142,7 @@ export const ARCAEA_TOUCH_CONF = {
 	},
 
 	chartData: z.strictObject({
-		inGameStrID: z.string(),
+		inGameStrID: z.union([z.array(z.string()), z.string()]),
 		notecount: zodNonNegativeInt,
 	}),
 
@@ -151,3 +151,5 @@ export const ARCAEA_TOUCH_CONF = {
 
 	supportedMatchTypes: ["inGameStrID", "songTitle", "tachiSongID"],
 } as const satisfies INTERNAL_GAME_PT_CONFIG;
+
+export const ARCAEA_CONTROLLER_CONF = ARCAEA_TOUCH_CONF;

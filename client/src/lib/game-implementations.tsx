@@ -26,7 +26,7 @@ import { IIDX_DP_IMPL, IIDX_SP_IMPL } from "./games/iidx";
 import { GPTClientImplementation } from "./types";
 import { SDVX_IMPL, USC_IMPL } from "./games/sdvx-usc";
 import { GITADORA_DORA_IMPL, GITADORA_GITA_IMPL } from "./games/gitadora";
-import { ARCAEA_TOUCH_IMPL } from "./games/arcaea";
+import { ARCAEA_IMPL } from "./games/arcaea";
 
 type GPTClientImplementations = {
 	[GPT in GPTString]: GPTClientImplementation<GPT>;
@@ -829,7 +829,8 @@ export const GPT_CLIENT_IMPLEMENTATIONS: GPTClientImplementations = {
 		),
 		ratingCell: ({ sc, rating }) => <RatingCell score={sc} rating={rating} />,
 	},
-	"arcaea:Touch": ARCAEA_TOUCH_IMPL,
+	"arcaea:Touch": ARCAEA_IMPL,
+	"arcaea:Controller": ARCAEA_IMPL,
 	"gitadora:Dora": GITADORA_DORA_IMPL,
 	"gitadora:Gita": GITADORA_GITA_IMPL,
 	"bms:14K": BMS_14K_IMPL,

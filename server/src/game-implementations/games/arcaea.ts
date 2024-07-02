@@ -8,7 +8,7 @@ import { IsNullish } from "utils/misc";
 import type { GPTServerImplementation } from "game-implementations/types";
 import type { GPTStrings } from "tachi-common";
 
-export const ARCAEA_IMPL: GPTServerImplementation<GPTStrings["arcaea"]> = {
+const ARCAEA_IMPL: GPTServerImplementation<GPTStrings["arcaea"]> = {
 	chartSpecificValidators: {
 		score: (score, chart) => {
 			if (score < 0) {
@@ -122,3 +122,6 @@ export const ARCAEA_IMPL: GPTServerImplementation<GPTStrings["arcaea"]> = {
 		},
 	],
 };
+
+export const ARCAEA_TOUCH_IMPL: GPTServerImplementation<"arcaea:Touch"> = ARCAEA_IMPL;
+export const ARCAEA_CONTROLLER_IMPL: GPTServerImplementation<"arcaea:Controller"> = ARCAEA_IMPL;

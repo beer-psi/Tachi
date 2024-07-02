@@ -1,6 +1,6 @@
 /* eslint-disable lines-around-comment */
 
-import { ARCAEA_CONF, ARCAEA_TOUCH_CONF } from "./game-support/arcaea";
+import { ARCAEA_CONF, ARCAEA_CONTROLLER_CONF, ARCAEA_TOUCH_CONF } from "./game-support/arcaea";
 import { BMS_14K_CONF, BMS_7K_CONF, BMS_CONF } from "./game-support/bms";
 import { CHUNITHM_CONF, CHUNITHM_SINGLE_CONF } from "./game-support/chunithm";
 import { GITADORA_CONF, GITADORA_DORA_CONF, GITADORA_GITA_CONF } from "./game-support/gitadora";
@@ -97,6 +97,7 @@ export const GAME_PT_CONFIGS = {
 	"usc:Keyboard": USC_KEYBOARD_CONF,
 	"itg:Stamina": ITG_STAMINA_CONF,
 	"arcaea:Touch": ARCAEA_TOUCH_CONF,
+	"arcaea:Controller": ARCAEA_CONTROLLER_CONF,
 	"ongeki:Single": ONGEKI_SINGLE_CONF,
 } as const satisfies Record<GPTString, INTERNAL_GAME_PT_CONFIG>;
 

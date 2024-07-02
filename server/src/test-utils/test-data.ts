@@ -35,6 +35,7 @@ import type {
 	ScoreDocument,
 	SongDocument,
 	UGPTSettingsDocument,
+	GPTStrings,
 } from "tachi-common";
 
 const file = (name: string) => path.join(__dirname, "/test-data", name);
@@ -1250,7 +1251,7 @@ export const TestingArcaeaSheriruthSong: SongDocument<"arcaea"> = {
 	title: "Sheriruth",
 };
 
-export const TestingArcaeaSheriruthFTR: ChartDocument<"arcaea:Touch"> = {
+export const TestingArcaeaSheriruthFTR: ChartDocument<GPTStrings["arcaea"]> = {
 	chartID: "48de13e0be17a282eed6ef97e6e1478eb59bc55e",
 	data: {
 		inGameStrID: "sheriruth",
@@ -1262,7 +1263,7 @@ export const TestingArcaeaSheriruthFTR: ChartDocument<"arcaea:Touch"> = {
 	levelNum: 10.1,
 	playtype: "Touch",
 	songID: 19,
-	versions: ["mobile"],
+	versions: ["switch"],
 };
 
 export const TestingOngekiChart: ChartDocument<"ongeki:Single"> = {

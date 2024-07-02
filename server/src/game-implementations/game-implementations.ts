@@ -1,4 +1,4 @@
-import { ARCAEA_IMPL } from "./games/arcaea";
+import { ARCAEA_TOUCH_IMPL, ARCAEA_CONTROLLER_IMPL } from "./games/arcaea";
 import { BMS_14K_IMPL, BMS_7K_IMPL, PMS_CONTROLLER_IMPL, PMS_KEYBOARD_IMPL } from "./games/bms-pms";
 import { CHUNITHM_IMPL } from "./games/chunithm";
 import { GITADORA_DORA_IMPL, GITADORA_GITA_IMPL } from "./games/gitadora";
@@ -43,6 +43,7 @@ export const GPT_SERVER_IMPLEMENTATIONS: GPTImplementations = {
 	"usc:Controller": USC_CONTROLLER_IMPL,
 	"usc:Keyboard": USC_KEYBOARD_IMPL,
 	"sdvx:Single": SDVX_IMPL,
-	"arcaea:Touch": ARCAEA_IMPL,
+	"arcaea:Touch": ARCAEA_TOUCH_IMPL,
+	"arcaea:Controller": ARCAEA_CONTROLLER_IMPL,
 	"ongeki:Single": ONGEKI_IMPL,
 };

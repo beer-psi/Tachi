@@ -139,6 +139,12 @@ const scoreMovers: ScoreMovers = {
 		lamp: old.lamp as any,
 		optional: old.hitMeta,
 	}),
+	"arcaea:Controller": (old) => ({
+		score: old.score,
+		judgements: old.judgements,
+		lamp: old.lamp as any,
+		optional: old.hitMeta,
+	}),
 };
 
 const logger = CreateLogCtx(__filename);
