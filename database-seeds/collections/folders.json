@@ -2,6 +2,214 @@
 	{
 		"data": {
 			"level": "1",
+			"versions": "switch"
+		},
+		"folderID": "F45fb77df326a0a23b2471af200246aed419476841e931ba8f8acbf1ff0e7409c",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Controller",
+		"searchTerms": [],
+		"title": "Level 1 (Nintendo Switch)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "10",
+			"versions": "switch"
+		},
+		"folderID": "F6db42f8967c4c7e1d3d01b7813cb16d5f119c5c184ac7f4be482986f0d3c37a5",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Controller",
+		"searchTerms": [],
+		"title": "Level 10 (Nintendo Switch)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "10+",
+			"versions": "switch"
+		},
+		"folderID": "Fa63547974fbb0f885b2289005d20665cf4ac7c44c66baeb0a36ce6b5da83ccf1",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Controller",
+		"searchTerms": [],
+		"title": "Level 10+ (Nintendo Switch)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "11",
+			"versions": "switch"
+		},
+		"folderID": "Fe4781a24d675c2c118a2f21bcece53786fd2f7e74b4660cc5b3a2fdd858cdf1e",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Controller",
+		"searchTerms": [],
+		"title": "Level 11 (Nintendo Switch)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "12",
+			"versions": "switch"
+		},
+		"folderID": "Fbba0841c012286145f3880e1fbbd16e39a010ce8c3185c93c1a221707d4a074e",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Controller",
+		"searchTerms": [],
+		"title": "Level 12 (Nintendo Switch)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "2",
+			"versions": "switch"
+		},
+		"folderID": "F92345a67cd0098eb3056749188aafee65663ddf6252e33f506b833285ed38658",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Controller",
+		"searchTerms": [],
+		"title": "Level 2 (Nintendo Switch)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "3",
+			"versions": "switch"
+		},
+		"folderID": "Fb4655d0e5c4f8c440a275e317018b97a1efcd4d2c0326e8dfc9144483a239768",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Controller",
+		"searchTerms": [],
+		"title": "Level 3 (Nintendo Switch)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "4",
+			"versions": "switch"
+		},
+		"folderID": "Ff845cf5acbf80bf8a8f571b92eab7f4bb420b7b4501569fa67839cbca6cf91d3",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Controller",
+		"searchTerms": [],
+		"title": "Level 4 (Nintendo Switch)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "5",
+			"versions": "switch"
+		},
+		"folderID": "Fc734546404df8957064d1ebfa28d243bed263f6663c91977ef42326901e747cb",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Controller",
+		"searchTerms": [],
+		"title": "Level 5 (Nintendo Switch)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "6",
+			"versions": "switch"
+		},
+		"folderID": "F00668012da641c82e588e52e85e8315dce13bdcba663d3fb0306d2af860392d9",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Controller",
+		"searchTerms": [],
+		"title": "Level 6 (Nintendo Switch)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "7",
+			"versions": "switch"
+		},
+		"folderID": "Fac08517c8d58d868137ff4ef3e91006318adeae790853d38ee09f99327c39776",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Controller",
+		"searchTerms": [],
+		"title": "Level 7 (Nintendo Switch)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "7+",
+			"versions": "switch"
+		},
+		"folderID": "F2f951dbc2c41f9e13403a84d212a2cc1d5584d0516bd9eb8da9cb5b3b96c5366",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Controller",
+		"searchTerms": [],
+		"title": "Level 7+ (Nintendo Switch)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "8",
+			"versions": "switch"
+		},
+		"folderID": "F0285374691e77c4e31d98ad4153ec2ccae41e1674d8c29553a4f69b6484f8651",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Controller",
+		"searchTerms": [],
+		"title": "Level 8 (Nintendo Switch)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "8+",
+			"versions": "switch"
+		},
+		"folderID": "Ff0113e9536585eb0df30a07730dbc3a5b8d5483338fc0595cd9ad79f77c34c55",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Controller",
+		"searchTerms": [],
+		"title": "Level 8+ (Nintendo Switch)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "9",
+			"versions": "switch"
+		},
+		"folderID": "F0e575c9f86291a0eada1cfbfff37d73b91adde62e68f66eb77b69f1ed583eca1",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Controller",
+		"searchTerms": [],
+		"title": "Level 9 (Nintendo Switch)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "9+",
+			"versions": "switch"
+		},
+		"folderID": "Fc795d33dcec9fd90233d59c3a7e43f76fa871e38d6c2ba20ff794a820c2a8f90",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Controller",
+		"searchTerms": [],
+		"title": "Level 9+ (Nintendo Switch)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "1",
 			"versions": "mobile"
 		},
 		"folderID": "F9957cf7fd3bbea6fa4c6b00a7ef2c24daede1a5a1b669a1394634e9c3360e378",
@@ -10,6 +218,19 @@
 		"playtype": "Touch",
 		"searchTerms": [],
 		"title": "Level 1 (Mobile)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "1",
+			"versions": "switch"
+		},
+		"folderID": "F2270900ae7b2aae45ee890e8c50aea7eda9b06ea137751ed11890469f5bae3b2",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Touch",
+		"searchTerms": [],
+		"title": "Level 1 (Nintendo Switch)",
 		"type": "charts"
 	},
 	{
@@ -27,6 +248,19 @@
 	},
 	{
 		"data": {
+			"level": "10",
+			"versions": "switch"
+		},
+		"folderID": "Fcf930d6143aae4854fd359fbab11d29c2c11f7872e7a289dbdbecdf4fb0d1e82",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Touch",
+		"searchTerms": [],
+		"title": "Level 10 (Nintendo Switch)",
+		"type": "charts"
+	},
+	{
+		"data": {
 			"level": "10+",
 			"versions": "mobile"
 		},
@@ -36,6 +270,19 @@
 		"playtype": "Touch",
 		"searchTerms": [],
 		"title": "Level 10+ (Mobile)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "10+",
+			"versions": "switch"
+		},
+		"folderID": "F819745eae2ff43af4e51023a93008435c66e3e1a8008c707a30a31073dbdd3a5",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Touch",
+		"searchTerms": [],
+		"title": "Level 10+ (Nintendo Switch)",
 		"type": "charts"
 	},
 	{
@@ -53,6 +300,19 @@
 	},
 	{
 		"data": {
+			"level": "11",
+			"versions": "switch"
+		},
+		"folderID": "F5b7f1181d5e5483d2895b7cb4f2ae7c7d11bc4a98c7d2140857c87db1a5f51eb",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Touch",
+		"searchTerms": [],
+		"title": "Level 11 (Nintendo Switch)",
+		"type": "charts"
+	},
+	{
+		"data": {
 			"level": "12",
 			"versions": "mobile"
 		},
@@ -62,6 +322,19 @@
 		"playtype": "Touch",
 		"searchTerms": [],
 		"title": "Level 12 (Mobile)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "12",
+			"versions": "switch"
+		},
+		"folderID": "F9315683cc231e4cad7c637e193c1e1c4b01e9a570d287387201f3d19b22c7805",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Touch",
+		"searchTerms": [],
+		"title": "Level 12 (Nintendo Switch)",
 		"type": "charts"
 	},
 	{
@@ -79,6 +352,19 @@
 	},
 	{
 		"data": {
+			"level": "2",
+			"versions": "switch"
+		},
+		"folderID": "Fda569c37b06305e6c18dbc6e40e472748127d7200a06fb0e8aa0fac9db12ed11",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Touch",
+		"searchTerms": [],
+		"title": "Level 2 (Nintendo Switch)",
+		"type": "charts"
+	},
+	{
+		"data": {
 			"level": "3",
 			"versions": "mobile"
 		},
@@ -88,6 +374,19 @@
 		"playtype": "Touch",
 		"searchTerms": [],
 		"title": "Level 3 (Mobile)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "3",
+			"versions": "switch"
+		},
+		"folderID": "Fa9d6606981cf2ade6f994c093cb5349701d37a66a2d9bcb57798e544c24c0f81",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Touch",
+		"searchTerms": [],
+		"title": "Level 3 (Nintendo Switch)",
 		"type": "charts"
 	},
 	{
@@ -105,6 +404,19 @@
 	},
 	{
 		"data": {
+			"level": "4",
+			"versions": "switch"
+		},
+		"folderID": "F7fa51772e1c7f6924339f19c9b241f967a1905b09fc4ce27d31c6afa0348dd1f",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Touch",
+		"searchTerms": [],
+		"title": "Level 4 (Nintendo Switch)",
+		"type": "charts"
+	},
+	{
+		"data": {
 			"level": "5",
 			"versions": "mobile"
 		},
@@ -114,6 +426,19 @@
 		"playtype": "Touch",
 		"searchTerms": [],
 		"title": "Level 5 (Mobile)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "5",
+			"versions": "switch"
+		},
+		"folderID": "F590bd35ee51163ce609373178543a6f63125265853d1dc6a5ee55378deacd28f",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Touch",
+		"searchTerms": [],
+		"title": "Level 5 (Nintendo Switch)",
 		"type": "charts"
 	},
 	{
@@ -131,6 +456,19 @@
 	},
 	{
 		"data": {
+			"level": "6",
+			"versions": "switch"
+		},
+		"folderID": "Fb648051d0bf9b549c659e257977e670e9ebe68946a5737241b7de35d031f7bb2",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Touch",
+		"searchTerms": [],
+		"title": "Level 6 (Nintendo Switch)",
+		"type": "charts"
+	},
+	{
+		"data": {
 			"level": "7",
 			"versions": "mobile"
 		},
@@ -140,6 +478,32 @@
 		"playtype": "Touch",
 		"searchTerms": [],
 		"title": "Level 7 (Mobile)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "7",
+			"versions": "switch"
+		},
+		"folderID": "Fb52a15b32a3a50049a426cbd68b0d19032716246a0a36d1a0a4bf79891b2baa1",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Touch",
+		"searchTerms": [],
+		"title": "Level 7 (Nintendo Switch)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "7+",
+			"versions": "switch"
+		},
+		"folderID": "F9a00711ac29e10f7d09195c7f5291259edab06c4e74b7c3fbae5f5d2e3638a97",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Touch",
+		"searchTerms": [],
+		"title": "Level 7+ (Nintendo Switch)",
 		"type": "charts"
 	},
 	{
@@ -157,6 +521,32 @@
 	},
 	{
 		"data": {
+			"level": "8",
+			"versions": "switch"
+		},
+		"folderID": "Fb437a0fd35cad5eb7eeff81be9d52bb87c8a92813d278767914f60fc7b54da96",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Touch",
+		"searchTerms": [],
+		"title": "Level 8 (Nintendo Switch)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "8+",
+			"versions": "switch"
+		},
+		"folderID": "F87f686feedb9d105ed4c5a036587e9fab5d1dbfdfaded3ebbe1afd2ce8f20c75",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Touch",
+		"searchTerms": [],
+		"title": "Level 8+ (Nintendo Switch)",
+		"type": "charts"
+	},
+	{
+		"data": {
 			"level": "9",
 			"versions": "mobile"
 		},
@@ -170,6 +560,19 @@
 	},
 	{
 		"data": {
+			"level": "9",
+			"versions": "switch"
+		},
+		"folderID": "F617604af58b5c42a2969f4cd8e5b85bae8d1191fa28bed1dfffa2291f0aa1f3c",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Touch",
+		"searchTerms": [],
+		"title": "Level 9 (Nintendo Switch)",
+		"type": "charts"
+	},
+	{
+		"data": {
 			"level": "9+",
 			"versions": "mobile"
 		},
@@ -179,6 +582,19 @@
 		"playtype": "Touch",
 		"searchTerms": [],
 		"title": "Level 9+ (Mobile)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "9+",
+			"versions": "switch"
+		},
+		"folderID": "F26e88cf046213eff835d05434e8603adab5f1e2fc770813ba78335fd6b8359f4",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Touch",
+		"searchTerms": [],
+		"title": "Level 9+ (Nintendo Switch)",
 		"type": "charts"
 	},
 	{
