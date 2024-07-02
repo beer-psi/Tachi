@@ -19,7 +19,7 @@ export default function ArcaeaJudgementCell({
 					<span style={{ color: COLOUR_SET.red }}>0</span>
 				</strong>
 				<br />
-				[+{score.scoreData.score - 10_000_000}]
+				<small>[+{score.scoreData.score - 10_000_000}]</small>
 			</td>
 		);
 	}
@@ -40,7 +40,7 @@ export default function ArcaeaJudgementCell({
 			{typeof score.scoreData.optional.shinyPure === "number" && (
 				<>
 					<br />
-					[+{score.scoreData.optional.shinyPure}]
+					<small>[+{score.scoreData.optional.shinyPure}]</small>
 				</>
 			)}
 		</td>
