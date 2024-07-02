@@ -152,4 +152,6 @@ export const ARCAEA_TOUCH_CONF = {
 	supportedMatchTypes: ["inGameStrID", "songTitle", "tachiSongID"],
 } as const satisfies INTERNAL_GAME_PT_CONFIG;
 
-export const ARCAEA_CONTROLLER_CONF = ARCAEA_TOUCH_CONF;
+export const ARCAEA_CONTROLLER_CONF = {
+	...ARCAEA_TOUCH_CONF
+} as const satisfies INTERNAL_GAME_PT_CONFIG;

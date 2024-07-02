@@ -60,6 +60,16 @@ export function FormatDifficulty(chart: ChartDocument, game: Game): string {
 		return `${shortDiff} ${chart.level}`;
 	}
 
+	if (game === "arcaea") {
+		const ch = chart as ChartDocument<GPTStrings["arcaea"]>;
+		const gptConfig = GetSpecificGPTConfig<GPTStrings["arcaea"]>(
+			GetGPTString(game, chart.playtype) as GPTStrings["arcaea"]
+		);
+		const shortDiff = gptConfig.difficulties.shorthand[ch.difficulty];
+
+		return `${chart.playtype} ${shortDiff} ${chart.level}`;
+	}
+
 	const gameConfig = GetGameConfig(game);
 
 	if (gameConfig.playtypes.length > 1) {
