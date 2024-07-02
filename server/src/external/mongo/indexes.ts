@@ -127,6 +127,7 @@ const staticIndexes: Partial<Record<Databases, Array<Index>>> = {
 		index({ "data.hashSHA256": 1, playtype: 1 }, UNIQUE),
 		index({ "data.hashMD5": 1, playtype: 1 }, UNIQUE),
 	],
+	"charts-arcaea": [index({ "data.inGameStrID": 1, playtype: 1, difficulty: 1 }, UNIQUE)],
 	"import-locks": [index({ userID: 1 }, UNIQUE)],
 	"score-blacklist": [index({ scoreID: 1 }, UNIQUE)],
 	migrations: [index({ migrationID: 1 }, UNIQUE)],
