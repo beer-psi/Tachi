@@ -10,25 +10,25 @@ export default function ArcaeaDBPage() {
 	return (
 		<div>
 			<h2 className="text-center mb-4">Obtaining the database</h2>
-			<ol className="instructions-list">
+			<ul className="instructions-list">
 				<li>
-					<strong>iOS:</strong> Create a full iTunes backup and use a tool such as
+					<strong>iOS:</strong> Create a full iTunes backup and use a tool such as{" "}
 					<ExternalLink href="https://github.com/MaxiHuHe04/iTunes-Backup-Explorer">
 						iTunes Backup Explorer
 					</ExternalLink>
-					and extracting <code>App Domain/moe.low.arc/Documents/st3</code>.
+					{" "}and extracting <code>App Domain/moe.low.arc/Documents/st3</code>.
 				</li>
 				<li>
 					<strong>Rooted Android:</strong> Extract <code>/data/data/moe.low.arc/files/st3</code>.
 				</li>
 				<li>
-					<strong>Hacked Switch:</strong> Use a save manager such as
+					<strong>Hacked Switch:</strong> Use a save manager such as{" "}
 					<ExternalLink href="https://github.com/BernardoGiordano/Checkpoint/releases/latest">
 						Checkpoint
 					</ExternalLink>
-					to dump <code>arcaea.db</code> from your Arcaea saves.
+					{" "}to dump <code>arcaea.db</code> from your Arcaea saves.
 				</li>
-			</ol>
+			</ul>
 			<Divider />
 			<ImportFileInfo
 				acceptMime={["application/x-sqlite3", ".db"]}
