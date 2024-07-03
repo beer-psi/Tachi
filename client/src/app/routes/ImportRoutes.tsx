@@ -83,6 +83,9 @@ export default function ImportRoutes() {
 							<Route exact path="/import/lr2oraja-db">
 								<LR2orajaDBPage />
 							</Route>
+							<Route exact path="/import/arcaea-db">
+								<ArcaeaDBPage />
+							</Route>
 						</>
 					)}
 
@@ -108,9 +111,6 @@ export default function ImportRoutes() {
 							</Route>
 							<Route exact path="/import/sss-xml">
 								<SSSXMLPage />
-							</Route>
-							<Route exact path="/import/arcaea-db">
-								<ArcaeaDBPage />
 							</Route>
 
 							<Route exact path="/import/fervidex">

@@ -338,7 +338,7 @@ function ImportInfoDisplayer({ game }: { game: Game }) {
 		);
 	} else if (game === "arcaea") {
 		Content.unshift(
-			<ImportTypeInfoCard key="file/arcaea-db" importType = "file/arcaea-db" />
+			<ImportTypeInfoCard key="file/arcaea-db" importType="file/arcaea-db" />
 		);
 	} else if (game === "ongeki") {
 		Content.unshift(
