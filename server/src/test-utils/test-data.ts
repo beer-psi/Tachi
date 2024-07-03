@@ -638,6 +638,10 @@ export const TestingWaccaMyPageScraperRecordsCSV = GetKTDataBuffer(
 	"./wacca-mypage-scraper/records.csv"
 );
 
+export const TestingArcaeaDB = GetKTDataBuffer(
+	"./arcaea-db/st3.sqlite3"
+);
+
 export const TestingBarbatosScore: BarbatosScore = {
 	difficulty: 1,
 	level: 10,
@@ -1237,7 +1241,7 @@ export const TestingArcaeaSheriruthSong: SongDocument<"arcaea"> = {
 		displayVersion: "1.0",
 		songPack: "Eternal Core",
 	},
-	id: 19,
+	id: 1,
 	searchTerms: [
 		"しぇりだー",
 		"しぇりるす",
@@ -1262,8 +1266,8 @@ export const TestingArcaeaSheriruthFTR: ChartDocument<GPTStrings["arcaea"]> = {
 	level: "10",
 	levelNum: 10.1,
 	playtype: "Touch",
-	songID: 19,
-	versions: ["switch"],
+	songID: 1,
+	versions: ["mobile", "switch"],
 };
 
 export const TestingOngekiChart: ChartDocument<"ongeki:Single"> = {

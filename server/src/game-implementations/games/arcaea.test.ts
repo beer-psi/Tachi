@@ -225,6 +225,11 @@ for (const [playtype, impl] of [
 				f({ scoreData: { lamp: "PURE MEMORY", judgements: { lost: 1 } } }),
 				"Arcaea IMPL Validators: Should disallow PURE MEMORY with non-perfect Lost judgements."
 			);
+			TestSnapshot(
+				t,
+				f({ scoreData: { judgements: { pure: 1140 }, optional: { shinyPure: 1148 } } }),
+				"Arcaea IMPL Validators: Should disallow scores with more shiny Pures than normal ones."
+			);
 
 			TestSnapshot(
 				t,

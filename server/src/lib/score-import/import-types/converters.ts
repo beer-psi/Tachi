@@ -22,6 +22,7 @@ import { ConverterIRUSC } from "./ir/usc/converter";
 import { Never } from "utils/misc";
 import type { ConverterFunction, ImportTypeContextMap, ImportTypeDataMap } from "./common/types";
 import type { ImportTypes } from "tachi-common";
+import { ConvertArcaeaDB } from "./file/arcaea-db/converter";
 
 export type ConverterMap = {
 	[I in ImportTypes]: ConverterFunction<ImportTypeDataMap[I], ImportTypeContextMap[I]>;
@@ -34,6 +35,7 @@ export const Converters: ConverterMap = {
 	"file/eamusement-iidx-csv": ConvertEamIIDXCSV,
 	"file/eamusement-sdvx-csv": ConvertEamSDVXCSV,
 	"file/mypagescraper-records-csv": ConvertMyPageScraperRecordsCSV,
+	"file/arcaea-db": ConvertArcaeaDB,
 
 	// interestingly, this import method **only** has a class handler, since it's just
 	// a CSV that indicates what class you are. Interesting edge case, but we're guaranteed

@@ -32,6 +32,7 @@ import ChunithmMYTExport from "app/pages/dashboard/import/ChunithmMYTExportPage"
 import OngekiArtemisExportPage from "app/pages/dashboard/import/OngekiArtemisExportPage";
 import MytIntegrationPage from "components/imports/MYTIntegrationPage";
 import OngekiInoharaPage from "app/pages/dashboard/import/OngekiInoharaPage";
+import ArcaeaDBPage from "app/pages/dashboard/import/ArcaeaDBPage";
 
 export default function ImportRoutes() {
 	const { user } = useContext(UserContext);
@@ -107,6 +108,9 @@ export default function ImportRoutes() {
 							</Route>
 							<Route exact path="/import/sss-xml">
 								<SSSXMLPage />
+							</Route>
+							<Route exact path="/import/arcaea-db">
+								<ArcaeaDBPage />
 							</Route>
 
 							<Route exact path="/import/fervidex">

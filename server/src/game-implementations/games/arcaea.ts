@@ -120,6 +120,14 @@ const ARCAEA_IMPL: GPTServerImplementation<GPTStrings["arcaea"]> = {
 				return "Cannot have a FULL RECALL with non-zero lost count.";
 			}
 		},
+		(s) => {
+			const shinyPure = s.scoreData.optional.shinyPure;
+			const pure = s.scoreData.judgements.pure;
+
+			if (typeof shinyPure === "number" && typeof pure === "number" && shinyPure > pure) {
+				return "Cannot have more shiny PUREs than PUREs.";
+			}
+		}
 	],
 };
 

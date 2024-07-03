@@ -80,5 +80,8 @@
 		"Cannot have a FULL RECALL with non-zero lost count."
 	],
 	"Arcaea IMPL Validators: Should disallow negative scores.": "Score must be non-negative. Got -1",
-	"Arcaea IMPL Validators: Should disallow scores that exceed 10 million + notecount.": "Score cannot exceed 10001151 for this chart."
+	"Arcaea IMPL Validators: Should disallow scores that exceed 10 million + notecount.": "Score cannot exceed 10001151 for this chart.",
+	"Arcaea IMPL Validators: Should disallow scores with more shiny Pures than normal ones.": [
+		"Cannot have more shiny PUREs than PUREs."
+	]
 }

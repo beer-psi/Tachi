@@ -5,7 +5,8 @@ export type FileUploadImportTypes =
 	| "file/mypagescraper-player-csv"
 	| "file/mypagescraper-records-csv"
 	| "file/pli-iidx-csv"
-	| "file/solid-state-squad";
+	| "file/solid-state-squad"
+	| "file/arcaea-db";
 
 export type APIImportTypes =
 	| "api/eag-iidx"

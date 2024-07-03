@@ -336,6 +336,10 @@ function ImportInfoDisplayer({ game }: { game: Game }) {
 				key="SL-ITG"
 			/>
 		);
+	} else if (game === "arcaea") {
+		Content.unshift(
+			<ImportTypeInfoCard key="file/arcaea-db" importType = "file/arcaea-db" />
+		);
 	} else if (game === "ongeki") {
 		Content.unshift(
 			<ImportInfoCard
@@ -706,6 +710,16 @@ function ImportTypeInfoCard({
 					desc="Use a PLI .csv file to import scores."
 					moreInfo="Note: This network is currently not being developed on. I highly recommend switching to anything else. I highly recommend using Fervidex instead, and just using this once to sync things up."
 					key="PLI .csv"
+				/>
+			);
+		case "file/arcaea-db":
+			return (
+				<ImportInfoCard
+					name="Arcaea Database"
+					href="arcaea-db"
+					desc="Use an Arcaea database file to import scores."
+					moreInfo="Note: This database is only obtainable from a full iTunes backup (iOS), with root access (Android), or with a hacked Switch."
+					key="Arcaea DB"
 				/>
 			);
 		case "file/mypagescraper-records-csv":

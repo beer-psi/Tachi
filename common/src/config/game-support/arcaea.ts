@@ -80,7 +80,7 @@ export const ARCAEA_TOUCH_CONF = {
 		},
 		gauge: {
 			type: "INTEGER",
-			validate: p.isBetween(0, 100),
+			validate: p.isBetween(0, 125),
 			formatter: FmtPercent,
 			description: "The amount of life left in the gauge at the end of the chart.",
 		}

@@ -10,7 +10,26 @@
         "level": "10",
         "levelNum": 10.1,
         "playtype": "Touch",
-        "songID": 19,
-        "versions": ["mobile"]
-    }
+        "songID": 1,
+        "versions": [
+            "mobile",
+            "switch"
+        ]
+    },
+    {
+		"chartID": "609affc7685d3c31894a52c5904f9dc6d3202685",
+		"data": {
+			"inGameStrID": "sheriruth",
+			"notecount": 1151
+		},
+		"difficulty": "Future",
+		"isPrimary": true,
+		"level": "10",
+		"levelNum": 10.1,
+		"playtype": "Controller",
+		"songID": 1,
+		"versions": [
+			"switch"
+		]
+	}
 ]

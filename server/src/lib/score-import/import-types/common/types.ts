@@ -3,6 +3,7 @@ import type { DryScore } from "../../framework/common/types";
 import type { MytChunithmScore } from "../api/myt-chunithm/types";
 import type { MytOngekiScore } from "../api/myt-ongeki/types";
 import type { MytWaccaScore } from "../api/myt-wacca/types";
+import type { ArcaeaScoreRow } from "../file/arcaea-db/types";
 import type { SDVXEamusementCSVData } from "../file/eamusement-sdvx-csv/types";
 import type { S3Score } from "../file/solid-state-squad/types";
 import type { MyPageRecordsParsedPB } from "../file/wacca-mypage-scraper/types";
@@ -39,6 +40,7 @@ export interface ImportTypeDataMap {
 	"file/pli-iidx-csv": IIDXEamusementCSVData;
 	"file/mypagescraper-records-csv": MyPageRecordsParsedPB;
 	"file/mypagescraper-player-csv": never;
+	"file/arcaea-db": ArcaeaScoreRow,
 
 	"ir/direct-manual": BatchManualScore;
 	"ir/barbatos": BarbatosScore | BarbatosSDVX6Score;
@@ -87,6 +89,7 @@ export interface ImportTypeContextMap {
 	"file/pli-iidx-csv": IIDXEamusementCSVContext;
 	"file/mypagescraper-records-csv": EmptyObject;
 	"file/mypagescraper-player-csv": EmptyObject;
+	"file/arcaea-db": EmptyObject;
 
 	"ir/direct-manual": BatchManualContext;
 	"ir/barbatos": BarbatosContext;
