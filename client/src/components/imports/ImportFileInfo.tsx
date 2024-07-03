@@ -18,18 +18,20 @@ export type MoreDataForm = ({
 	setFulfilled: SetState<boolean>;
 }) => JSX.Element;
 
-export default function ImportFileInfo({
+export default function ImportFileInfo<T extends "RAW" | "TEXT">({
 	name,
 	acceptMime,
 	parseFunction,
 	importType,
 	MoreDataForm,
+	fileType,
 }: {
 	name: string;
 	acceptMime: string | string[];
-	parseFunction: (r: string) => ParseFunctionReturn;
+	parseFunction: (r: {"RAW": ArrayBuffer, "TEXT": string}[T]) => ParseFunctionReturn;
 	importType: FileUploadImportTypes;
 	MoreDataForm?: MoreDataForm;
+	fileType?: T,
 }) {
 	const [file, setFile] = useState<File | null>(null);
 
@@ -46,9 +48,11 @@ export default function ImportFileInfo({
 			return;
 		}
 
-		file.text().then((r) => {
+		const promise = fileType === "RAW" ? file.arrayBuffer() : file.text();
+
+		promise.then((r) => {
 			try {
-				const { valid, info } = parseFunction(r);
+				const { valid, info } = parseFunction(r as {"RAW": ArrayBuffer, "TEXT": string}[T]);
 
 				if (valid) {
 					setErrMsg(null);
@@ -59,7 +63,7 @@ export default function ImportFileInfo({
 				setErrMsg((err as Error).message);
 				setData({ valid: false, info: {} });
 			}
-		});
+		})
 	}, [file]);
 
 	const info = useMemo(() => {

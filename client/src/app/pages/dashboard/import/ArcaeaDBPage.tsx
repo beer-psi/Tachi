@@ -10,9 +10,10 @@ export default function ArcaeaDBPage() {
 			acceptMime={["application/x-sqlite3", ".db"]}
 			importType="file/arcaea-db"
 			name="Arcaea Database"
-			parseFunction={(d: string) => {
+			parseFunction={(d: ArrayBuffer) => {
 				return { valid: true, info: {} };
 			}}
+			fileType="RAW"
 		/>
 	);
 }
