@@ -18,7 +18,7 @@ export type MoreDataForm = ({
 	setFulfilled: SetState<boolean>;
 }) => JSX.Element;
 
-export default function ImportFileInfo<T extends "RAW" | "TEXT">({
+export default function ImportFileInfo<T extends "RAW" | "TEXT" = "TEXT">({
 	name,
 	acceptMime,
 	parseFunction,
