@@ -16,7 +16,7 @@ export default function ArcaeaDBPage() {
 					<ExternalLink href="https://github.com/MaxiHuHe04/iTunes-Backup-Explorer">
 						iTunes Backup Explorer
 					</ExternalLink>
-					{" "}and extracting <code>App Domain/moe.low.arc/Documents/st3</code>.
+					{" "}to extract <code>App Domain/moe.low.arc/Documents/st3</code>.
 				</li>
 				<li>
 					<strong>Rooted Android:</strong> Extract <code>/data/data/moe.low.arc/files/st3</code>.
