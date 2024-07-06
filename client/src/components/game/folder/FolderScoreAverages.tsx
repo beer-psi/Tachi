@@ -36,7 +36,9 @@ export default function FolderScoreAverages({
 
 			const v2 = v as ConfIntegerScoreMetric | ConfDecimalScoreMetric;
 
-			if (v2.chartDependentMax) {
+			// Making an exception for Arcaea, because the chartDependentMax part
+			// is pretty insignificant.
+			if (v2.chartDependentMax && game !== "arcaea") {
 				return false;
 			}
 
