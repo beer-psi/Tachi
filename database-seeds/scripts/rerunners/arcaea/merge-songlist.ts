@@ -1,5 +1,12 @@
 import fs from "fs";
-import { ChartDocument, GPTStrings, Playtypes, SongDocument, Versions, integer } from "tachi-common";
+import {
+	ChartDocument,
+	GPTStrings,
+	Playtypes,
+	SongDocument,
+	Versions,
+	integer,
+} from "tachi-common";
 import {
 	CreateChartID,
 	GetFreshSongIDGenerator,
@@ -113,7 +120,7 @@ function convertPackName(packsByID: Record<string, PacklistEntry>, packID: strin
 			parentName = "Memory Archive";
 		} else {
 			const parentPack = packsByID[pack.pack_parent];
-			
+
 			if (!parentPack) {
 				throw new Error(
 					`${packID} declares parent ${pack.pack_parent}, but no packs with such ID exists. Check your "packlist".`
@@ -122,7 +129,7 @@ function convertPackName(packsByID: Record<string, PacklistEntry>, packID: strin
 
 			parentName = parentPack.name_localized.en;
 		}
-		
+
 		return `${pack.name_localized.en} (${parentName})`;
 	}
 
@@ -152,20 +159,20 @@ const packlistContent = fs.readFileSync(options.packlist, { encoding: "utf-8" })
 const packlistData: { packs: Array<PacklistEntry> } = JSON.parse(packlistContent);
 const packsByID = Object.fromEntries(packlistData.packs.map((p) => [p.id, p]));
 
-const existingSongDocs: SongDocument<"arcaea">[] = ReadCollection("songs-arcaea.json")
-const existingSongs = new Map(
-	existingSongDocs.map((e) => [e.id, e])
-);
-const songTitleMap = new Map(
-	existingSongDocs.map((e) => [e.title, e])
-);
-const existingChartDocs: Array<ChartDocument<GPTStrings["arcaea"]>> = ReadCollection("charts-arcaea.json");
-const inGameIDToSongsMap: MultiMapUniqueValues<string, SongDocument<"arcaea">> = new MultiMapUniqueValues();
+const existingSongDocs: SongDocument<"arcaea">[] = ReadCollection("songs-arcaea.json");
+const existingSongs = new Map(existingSongDocs.map((e) => [e.id, e]));
+const songTitleMap = new Map(existingSongDocs.map((e) => [e.title, e]));
+const existingChartDocs: Array<ChartDocument<GPTStrings["arcaea"]>> =
+	ReadCollection("charts-arcaea.json");
+const inGameIDToSongsMap: MultiMapUniqueValues<
+	string,
+	SongDocument<"arcaea">
+> = new MultiMapUniqueValues();
 const existingCharts: Map<string, ChartDocument<GPTStrings["arcaea"]>> = new Map();
 
 for (const chart of existingChartDocs) {
 	const song = existingSongs.get(chart.songID);
-	
+
 	if (!song) {
 		logger.error(`DESYNC: Chart ${chart.songID} does not belong to any song!`);
 		process.exit(1);
@@ -178,8 +185,11 @@ for (const chart of existingChartDocs) {
 		}
 	} else {
 		inGameIDToSongsMap.set(chart.data.inGameStrID, song);
-		existingCharts.set(`${chart.data.inGameStrID}-${chart.playtype}-${chart.difficulty}`, chart);
-	}	
+		existingCharts.set(
+			`${chart.data.inGameStrID}-${chart.playtype}-${chart.difficulty}`,
+			chart
+		);
+	}
 }
 
 const getNewSongID = GetFreshSongIDGenerator("arcaea");
@@ -202,7 +212,7 @@ for (const entry of data.songs) {
 
 		if (titleAlreadyExists) {
 			logger.warn(
-				`A song called ${title} already exists in songs-arcaea (songID ${titleAlreadyExists.id}). Is this a duplicate with a different inGameID?`,
+				`A song called ${title} already exists in songs-arcaea (songID ${titleAlreadyExists.id}). Is this a duplicate with a different inGameID?`
 			);
 
 			if (!options.force) {
@@ -232,14 +242,16 @@ for (const entry of data.songs) {
 			},
 		};
 
-		logger.info(`Inserting new song ${songDoc.artist} - ${songDoc.title} (inGameStrID ${inGameStrID}).`);
+		logger.info(
+			`Inserting new song ${songDoc.artist} - ${songDoc.title} (inGameStrID ${inGameStrID}).`
+		);
 
 		possibleSongs = [songDoc];
 		newSongs.push(songDoc);
 		inGameIDToSongsMap.set(inGameStrID, songDoc);
 	}
 
-	for (const chart of entry.difficulties) {	
+	for (const chart of entry.difficulties) {
 		if (chart.hidden_until_unlocked && chart.hidden_until === "always") {
 			// Deactivated difficulty
 			continue;
@@ -276,7 +288,9 @@ for (const entry of data.songs) {
 				},
 			};
 
-			logger.info(`Inserting new song ${songDoc.artist} - ${songDoc.title} (inGameStrID ${inGameStrID}).`);
+			logger.info(
+				`Inserting new song ${songDoc.artist} - ${songDoc.title} (inGameStrID ${inGameStrID}).`
+			);
 
 			song = songDoc;
 			newSongs.push(songDoc);
@@ -307,12 +321,14 @@ for (const entry of data.songs) {
 
 			if (exists) {
 				if (exists.level !== level && options.applyLevelChanges) {
-					logger.info(`Chart ${entry.artist} - ${entry.title_localized.en} [${playtype} ${difficulty}] has had a level change: ${exists.level} -> ${level}`);
+					logger.info(
+						`Chart ${entry.artist} - ${entry.title_localized.en} [${playtype} ${difficulty}] has had a level change: ${exists.level} -> ${level}`
+					);
 
 					exists.level = level;
 					exists.levelNum = levelNum;
 				}
- 				
+
 				if (!exists.versions.includes(version)) {
 					exists.versions.push(version);
 				}
@@ -338,7 +354,9 @@ for (const entry of data.songs) {
 
 			newCharts.push(chartDoc);
 
-			logger.info(`Inserted new chart ${entry.artist} - ${entry.title_localized.en} [${playtype} ${difficulty}].`);
+			logger.info(
+				`Inserted new chart ${entry.artist} - ${entry.title_localized.en} [${playtype} ${difficulty}].`
+			);
 		}
 	}
 }

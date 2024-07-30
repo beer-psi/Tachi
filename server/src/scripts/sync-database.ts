@@ -169,8 +169,8 @@ const syncInstructions: Array<SyncInstructions> = [
 				await UpdateGameSongIDCounter(collectionName.includes("bms") ? "bms" : "pms");
 
 				await RecalcAllScores({
+					game: collectionName.split("-")[1],
 					chartID: { $in: r.changedFields },
-					game: collectionName.split("-")[0],
 				});
 			}
 		},
@@ -190,8 +190,8 @@ const syncInstructions: Array<SyncInstructions> = [
 				await UpdateIsPrimaryStatus();
 
 				await RecalcAllScores({
+					game: collName.split("-")[1],
 					chartID: { $in: r.changedFields },
-					game: collName.split("-")[0],
 				});
 			}
 		},
@@ -208,8 +208,8 @@ const syncInstructions: Array<SyncInstructions> = [
 
 			if (r.thingsChanged) {
 				await RecalcAllScores({
+					game: collName.split("-")[1],
 					songID: { $in: r.changedFields },
-					game: collName.split("-")[0],
 				});
 			}
 		},
@@ -226,8 +226,8 @@ const syncInstructions: Array<SyncInstructions> = [
 
 			if (r.thingsChanged) {
 				await RecalcAllScores({
+					game: collName.split("-")[1],
 					songID: { $in: r.changedFields },
-					game: collName.split("-")[0],
 				});
 			}
 		},

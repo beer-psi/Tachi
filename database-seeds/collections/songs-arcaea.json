@@ -6159,5 +6159,109 @@
 			"하이퍼 비전"
 		],
 		"title": "HYPER VISION"
+	},
+	{
+		"altTitles": [
+			"ディストーション・ニンゲン"
+		],
+		"artist": "DJ Myosuke & KAJI",
+		"data": {
+			"displayVersion": "5.9",
+			"songPack": "World Extend 3"
+		},
+		"id": 408,
+		"searchTerms": [
+			"디스토션 휴먼"
+		],
+		"title": "Distortion Human"
+	},
+	{
+		"altTitles": [],
+		"artist": "Shohei Tsuchiya(ZUNTATA)",
+		"data": {
+			"displayVersion": "5.9",
+			"songPack": "Memory Archive"
+		},
+		"id": 409,
+		"searchTerms": [
+			"しゅりんく",
+			"슈링크",
+			"쉬링크"
+		],
+		"title": "shrink"
+	},
+	{
+		"altTitles": [],
+		"artist": "ryhki",
+		"data": {
+			"displayVersion": "5.9",
+			"songPack": "Absolute Nihil"
+		},
+		"id": 410,
+		"searchTerms": [
+			"いんべいん",
+			"いんゔぇいん",
+			"인 베인"
+		],
+		"title": "In Vain"
+	},
+	{
+		"altTitles": [],
+		"artist": "rejection",
+		"data": {
+			"displayVersion": "5.9",
+			"songPack": "Absolute Nihil"
+		},
+		"id": 411,
+		"searchTerms": [
+			"ひぷのたいず",
+			"히프노타이즈"
+		],
+		"title": "Hypnotize"
+	},
+	{
+		"altTitles": [],
+		"artist": "YUKIYANAGI",
+		"data": {
+			"displayVersion": "5.9",
+			"songPack": "Absolute Nihil"
+		},
+		"id": 412,
+		"searchTerms": [
+			"ashen boundary",
+			"あっしぇんばうんだりー",
+			"애쉰 바운더리"
+		],
+		"title": "Ashen 6oundary"
+	},
+	{
+		"altTitles": [],
+		"artist": "Tatsunoshin",
+		"data": {
+			"displayVersion": "5.9",
+			"songPack": "Absolute Nihil"
+		},
+		"id": 413,
+		"searchTerms": [
+			"じゃっじめんと",
+			"저지멘트",
+			"저지먼트"
+		],
+		"title": "Judgement"
+	},
+	{
+		"altTitles": [],
+		"artist": "Yuta Imai vs Qlarabelle",
+		"data": {
+			"displayVersion": "5.9",
+			"songPack": "Absolute Nihil"
+		},
+		"id": 414,
+		"searchTerms": [
+			"おるたーえご",
+			"얼터 에고",
+			"알터 에고"
+		],
+		"title": "ALTER EGO"
 	}
 ]
