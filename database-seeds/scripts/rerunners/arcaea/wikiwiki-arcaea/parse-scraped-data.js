@@ -25,6 +25,7 @@ const MANUAL_TITLE_MAP = {
 	"LIVHT MY W​Δ​Y": "LIVHT MY WΔY",
 	"患部で止まってすぐ溶ける～ 狂気の優曇華院": "Kanbu de Tomatte Sugu Tokeru",
 	"患部で止まってすぐ溶ける　～ 狂気の優曇華院": "Kanbu de Tomatte Sugu Tokeru",
+	"Rain of Conflictin a Radiant Abyss": "Rain of Conflict in a Radiant Abyss",
 
 	// Zero idea
 	"Alice à la mode": "Alice à la mode",

@@ -35,17 +35,20 @@ interface SonglistChart {
 	hidden_until?: "always" | "difficulty" | "none" | "song";
 }
 
-interface SonglistEntry {
-	idx: integer;
-	id: string;
-	title_localized: LocalizedText;
-	artist: string;
-	set: string;
-	search_title?: LocalizedSearchTerms;
-	search_artist?: LocalizedSearchTerms;
-	version: string;
-	difficulties: Array<SonglistChart>;
-}
+type SonglistEntry =
+	| {
+			idx: integer;
+			id: string;
+			deleted: undefined;
+			title_localized: LocalizedText;
+			artist: string;
+			set: string;
+			search_title?: LocalizedSearchTerms;
+			search_artist?: LocalizedSearchTerms;
+			version: string;
+			difficulties: Array<SonglistChart>;
+	  }
+	| { idx: integer; id: string; deleted: true };
 
 interface PacklistEntry {
 	id: string;
@@ -200,6 +203,26 @@ const newCharts: Array<ChartDocument<GPTStrings["arcaea"]>> = [];
 for (const entry of data.songs) {
 	const inGameStrID = entry.id;
 	let possibleSongs = inGameIDToSongsMap.get(inGameStrID);
+
+	if (entry.deleted === true) {
+		if (possibleSongs) {
+			logger.info(
+				`Removing charts of song ${inGameStrID} from version ${version}, because it was deleted.`
+			);
+		}
+
+		existingChartDocs
+			.filter((c) => c.data.inGameStrID === inGameStrID)
+			.forEach((c) => {
+				const idx = c.versions.indexOf(version);
+
+				if (idx !== -1) {
+					c.versions.splice(idx, 1);
+				}
+			});
+		continue;
+	}
+
 	const searchTerms = Object.values(entry.search_title ?? {})
 		.flatMap((t) => t)
 		// Necessary because some songs have blank search terms

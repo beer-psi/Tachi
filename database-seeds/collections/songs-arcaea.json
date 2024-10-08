@@ -6263,5 +6263,170 @@
 			"알터 에고"
 		],
 		"title": "ALTER EGO"
+	},
+	{
+		"altTitles": [],
+		"artist": "Camellia",
+		"data": {
+			"displayVersion": "5.10",
+			"songPack": "World Extend 3"
+		},
+		"id": 415,
+		"searchTerms": [
+			"えぴたくしー",
+			"에피택시"
+		],
+		"title": "epitaxy"
+	},
+	{
+		"altTitles": [],
+		"artist": "Sobrem & 庭師",
+		"data": {
+			"displayVersion": "5.10",
+			"songPack": "Rotaeno"
+		},
+		"id": 416,
+		"searchTerms": [
+			"わるつふぉーろーれらい",
+			"왈츠 포 로렐라이"
+		],
+		"title": "Waltz for Lorelei"
+	},
+	{
+		"altTitles": [],
+		"artist": "Kobaryo vs HyuN",
+		"data": {
+			"displayVersion": "5.10",
+			"songPack": "Rotaeno"
+		},
+		"id": 417,
+		"searchTerms": [
+			"でゅあるどぅーむですまっち",
+			"듀얼 룸 데스매치"
+		],
+		"title": "Dual Doom Deathmatch"
+	},
+	{
+		"altTitles": [],
+		"artist": "ARForest",
+		"data": {
+			"displayVersion": "5.10",
+			"songPack": "Rotaeno"
+		},
+		"id": 418,
+		"searchTerms": [
+			"いんばーてっどわーるど",
+			"いんゔぁーてっどわーるど",
+			"인버티드 월드"
+		],
+		"title": "Inverted World"
+	},
+	{
+		"altTitles": [],
+		"artist": "ETIA.",
+		"data": {
+			"displayVersion": "5.10",
+			"songPack": "Rotaeno"
+		},
+		"id": 419,
+		"searchTerms": [
+			"むーぶゆあぼでぃ",
+			"므브유알보디"
+		],
+		"title": "MVURBD"
+	},
+	{
+		"altTitles": [],
+		"artist": "Team Grimoire vs Aoi",
+		"data": {
+			"displayVersion": "5.10",
+			"songPack": "Rotaeno"
+		},
+		"id": 420,
+		"searchTerms": [
+			"うるかぬす",
+			"うるかーぬす",
+			"불카누스"
+		],
+		"title": "Vulcānus"
+	},
+	{
+		"altTitles": [],
+		"artist": "ak+q",
+		"data": {
+			"displayVersion": "5.10",
+			"songPack": "Memory Archive"
+		},
+		"id": 421,
+		"searchTerms": [
+			"れいんおぶこんふりくといんあれでぃあんとあびす",
+			"れいんおぶこんふりくといんあらじあんとあびす",
+			"れいんおぶこんふりくといんあらでぃあんとあびす",
+			"레인 오브 컨플릭트 인 어 래디언트 어비스"
+		],
+		"title": "Rain of Conflict in a Radiant Abyss"
+	},
+	{
+		"altTitles": [],
+		"artist": "crayvxn",
+		"data": {
+			"displayVersion": "5.10",
+			"songPack": "Adverse Prelude"
+		},
+		"id": 422,
+		"searchTerms": [
+			"せいんとおあしんなー",
+			"세인트 오어 시너"
+		],
+		"title": "Saint or Sinner"
+	},
+	{
+		"altTitles": [],
+		"artist": "Kazki Misora",
+		"data": {
+			"displayVersion": "5.10",
+			"songPack": "World Extend 3"
+		},
+		"id": 423,
+		"searchTerms": [
+			"へいるすとーん",
+			"헤일스톤"
+		],
+		"title": "Hailstone"
+	},
+	{
+		"altTitles": [
+			"フレテミタイ"
+		],
+		"artist": "みきとP",
+		"data": {
+			"displayVersion": "5.10",
+			"songPack": "World Extend 3"
+		},
+		"id": 424,
+		"searchTerms": [
+			"furetemitai",
+			"닿고싶어"
+		],
+		"title": "FURETE-MITAI"
+	},
+	{
+		"altTitles": [
+			"幻想のサテライト"
+		],
+		"artist": "豚乙女",
+		"data": {
+			"displayVersion": "5.10",
+			"songPack": "Memory Archive"
+		},
+		"id": 425,
+		"searchTerms": [
+			"gensounosateraito",
+			"げんそうのさてらいと",
+			"겐소우노 사토라이토",
+			"겐소노 사토라이토",
+			"환상의 새틀라이트"
+		],
+		"title": "Gensou no Satellite"
 	}
 ]
