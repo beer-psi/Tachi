@@ -1,13 +1,19 @@
 import { IsNullish } from "util/misc";
 import React from "react";
-import { COLOUR_SET, ChartDocument, GPTStrings, PBScoreDocument, ScoreDocument } from "tachi-common";
+import {
+	COLOUR_SET,
+	ChartDocument,
+	GPTStrings,
+	PBScoreDocument,
+	ScoreDocument,
+} from "tachi-common";
 
 export default function ArcaeaJudgementCell({
 	score,
 	chart,
 }: {
 	score: ScoreDocument<GPTStrings["arcaea"]> | PBScoreDocument<GPTStrings["arcaea"]>;
-	chart: ChartDocument<GPTStrings["arcaea"]>
+	chart: ChartDocument<GPTStrings["arcaea"]>;
 }) {
 	// even if we dont have judgement data, we know what they got.
 	if (score.scoreData.lamp === "PURE MEMORY") {
@@ -19,7 +25,13 @@ export default function ArcaeaJudgementCell({
 					<span style={{ color: COLOUR_SET.red }}>0</span>
 				</strong>
 				<br />
-				<small>[+{score.scoreData.score - 10_000_000}]</small>
+				{chart.data.notecount ? (
+					<small>
+						[MAX-{chart.data.notecount - (score.scoreData.score - 10_000_000)}]
+					</small>
+				) : (
+					<small>[+{score.scoreData.score - 10_000_000}]</small>
+				)}
 			</td>
 		);
 	}
