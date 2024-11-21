@@ -1803,7 +1803,7 @@
 		"difficulty": "Beyond",
 		"isPrimary": true,
 		"level": "11",
-		"levelNum": 11,
+		"levelNum": 11.2,
 		"playtype": "Touch",
 		"songID": 18,
 		"versions": [
@@ -26997,7 +26997,7 @@
 		"difficulty": "Future",
 		"isPrimary": true,
 		"level": "10+",
-		"levelNum": 10.8,
+		"levelNum": 10.9,
 		"playtype": "Controller",
 		"songID": 286,
 		"versions": [
