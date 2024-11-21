@@ -6502,5 +6502,175 @@
 			"디에스 이레"
 		],
 		"title": "Dies irae"
+	},
+	{
+		"altTitles": [],
+		"artist": "Synzak & Laxeno57",
+		"data": {
+			"displayVersion": "6.0",
+			"songPack": "World Extend 3"
+		},
+		"id": 431,
+		"searchTerms": [
+			"あすとらるどっとえぐぜ",
+			"아스트랄 이엑스이"
+		],
+		"title": "astral.exe"
+	},
+	{
+		"altTitles": [],
+		"artist": "MAYA AKAI",
+		"data": {
+			"displayVersion": "6.0",
+			"songPack": "Collaboration Chapter 3 (O.N.G.E.K.I.)"
+		},
+		"id": 432,
+		"searchTerms": [
+			"りふとおふ",
+			"리프트오프"
+		],
+		"title": "LiftOff"
+	},
+	{
+		"altTitles": [],
+		"artist": "AJURIKA",
+		"data": {
+			"displayVersion": "6.0",
+			"songPack": "Collaboration Chapter 3 (O.N.G.E.K.I.)"
+		},
+		"id": 433,
+		"searchTerms": [
+			"すーぱーあんびゅらんす",
+			"슈퍼 앰뷸런스",
+			"수퍼 앰뷸런스"
+		],
+		"title": "SUPER AMBULANCE"
+	},
+	{
+		"altTitles": [],
+		"artist": "黒魔",
+		"data": {
+			"displayVersion": "6.0",
+			"songPack": "Collaboration Chapter 3 (O.N.G.E.K.I.)"
+		},
+		"id": 434,
+		"searchTerms": [
+			"どんとふぁいとざみゅーじっく",
+			"돈 파이트 더 뮤직",
+			"돈 파잇 더 뮤직"
+		],
+		"title": "Don't Fight The Music"
+	},
+	{
+		"altTitles": [],
+		"artist": "黒魔",
+		"data": {
+			"displayVersion": "6.0",
+			"songPack": "Collaboration Chapter 3 (O.N.G.E.K.I.)"
+		},
+		"id": 435,
+		"searchTerms": [
+			"あんどりばいぶざめろでぃ",
+			"앤 리바이브 더 멜로디"
+		],
+		"title": "And Revive The Melody"
+	},
+	{
+		"altTitles": [],
+		"artist": "void (Mournfinale)",
+		"data": {
+			"displayVersion": "6.0",
+			"songPack": "Lucent Historia"
+		},
+		"id": 436,
+		"searchTerms": [
+			"すわんそんぐ",
+			"스완 송"
+		],
+		"title": "Swan Song"
+	},
+	{
+		"altTitles": [],
+		"artist": "sky_delta",
+		"data": {
+			"displayVersion": "6.0",
+			"songPack": "Lucent Historia"
+		},
+		"id": 437,
+		"searchTerms": [
+			"れねげーど",
+			"레니게이드"
+		],
+		"title": "Renegade"
+	},
+	{
+		"altTitles": [],
+		"artist": "May × Felysrator",
+		"data": {
+			"displayVersion": "6.0",
+			"songPack": "Lucent Historia"
+		},
+		"id": 438,
+		"searchTerms": [
+			"れいずおぶれむなんと",
+			"레이즈 오브 렘넌트"
+		],
+		"title": "Rays of Remnant"
+	},
+	{
+		"altTitles": [],
+		"artist": "Supire feat.eili",
+		"data": {
+			"displayVersion": "6.0",
+			"songPack": "Lucent Historia"
+		},
+		"id": 439,
+		"searchTerms": [
+			"ぶりーちおぶふぁいす",
+			"브리치 오브 페이스"
+		],
+		"title": "Breach of Faith"
+	},
+	{
+		"altTitles": [],
+		"artist": "Ashrount vs. 打打だいず",
+		"data": {
+			"displayVersion": "6.0",
+			"songPack": "Lucent Historia"
+		},
+		"id": 440,
+		"searchTerms": [
+			"らめんとれいん",
+			"라멘트 레인"
+		],
+		"title": "Lament Rain"
+	},
+	{
+		"altTitles": [],
+		"artist": "Designant",
+		"data": {
+			"displayVersion": "6.0",
+			"songPack": "Lucent Historia"
+		},
+		"id": 441,
+		"searchTerms": [
+			"でしぐなんと",
+			"데지그넌트"
+		],
+		"title": "Designant."
+	},
+	{
+		"altTitles": [],
+		"artist": "Dj Grimoire",
+		"data": {
+			"displayVersion": "6.0",
+			"songPack": "Lucent Historia"
+		},
+		"id": 442,
+		"searchTerms": [
+			"あすとらるくおんたいぜーしょん",
+			"아스트랄 퀀티제이션"
+		],
+		"title": "Astral Quantization"
 	}
 ]
