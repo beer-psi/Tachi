@@ -6428,5 +6428,79 @@
 			"환상의 새틀라이트"
 		],
 		"title": "Gensou no Satellite"
+	},
+	{
+		"altTitles": [
+			"プレヤ"
+		],
+		"artist": "qfeileadh&レゾナンスもえこ",
+		"data": {
+			"displayVersion": "5.10",
+			"songPack": "World Extend 3"
+		},
+		"id": 426,
+		"searchTerms": [
+			"pureya",
+			"프레이어"
+		],
+		"title": "Prayer"
+	},
+	{
+		"altTitles": [],
+		"artist": "DiGiTAL WiNG with 空音",
+		"data": {
+			"displayVersion": "5.10",
+			"songPack": "Memory Archive"
+		},
+		"id": 427,
+		"searchTerms": [
+			"くりむぞんくぉーつ",
+			"크림슨 쿼츠"
+		],
+		"title": "Crimson Quartz"
+	},
+	{
+		"altTitles": [],
+		"artist": "Ash Astral",
+		"data": {
+			"displayVersion": "5.10",
+			"songPack": "Memory Archive"
+		},
+		"id": 428,
+		"searchTerms": [
+			"さーどさん",
+			"서드 선",
+			"써드 선"
+		],
+		"title": "Third Sun"
+	},
+	{
+		"altTitles": [],
+		"artist": "KO3 & Relect",
+		"data": {
+			"displayVersion": "5.10",
+			"songPack": "Memory Archive"
+		},
+		"id": 429,
+		"searchTerms": [
+			"すぴりっとおぶざどーんとれす",
+			"스피릿 오브 더 던틀리스"
+		],
+		"title": "Spirit of the Dauntless"
+	},
+	{
+		"altTitles": [],
+		"artist": "お月さま交響曲",
+		"data": {
+			"displayVersion": "5.10",
+			"songPack": "Memory Archive"
+		},
+		"id": 430,
+		"searchTerms": [
+			"でぃえすいれ",
+			"でぃえすいらえ",
+			"디에스 이레"
+		],
+		"title": "Dies irae"
 	}
 ]
