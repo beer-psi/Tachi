@@ -313,6 +313,19 @@
 	},
 	{
 		"data": {
+			"level": "11+",
+			"versions": "mobile"
+		},
+		"folderID": "Fb76d38cc93f5286b17c6669c6c889828e1e002573be9c1749c75c99dfc0cd7d7",
+		"game": "arcaea",
+		"inactive": false,
+		"playtype": "Touch",
+		"searchTerms": [],
+		"title": "Level 11+ (Mobile)",
+		"type": "charts"
+	},
+	{
+		"data": {
 			"level": "12",
 			"versions": "mobile"
 		},
