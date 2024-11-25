@@ -5764,7 +5764,7 @@
 		"difficulty": "Beyond",
 		"isPrimary": true,
 		"level": "10",
-		"levelNum": 10,
+		"levelNum": 10.2,
 		"playtype": "Touch",
 		"songID": 62,
 		"versions": [
@@ -10054,7 +10054,7 @@
 		"difficulty": "Future",
 		"isPrimary": true,
 		"level": "9",
-		"levelNum": 9.2,
+		"levelNum": 9.4,
 		"playtype": "Touch",
 		"songID": 110,
 		"versions": [
@@ -22163,7 +22163,7 @@
 		"difficulty": "Present",
 		"isPrimary": true,
 		"level": "7+",
-		"levelNum": 7.7,
+		"levelNum": 7.8,
 		"playtype": "Touch",
 		"songID": 238,
 		"versions": [
@@ -29908,7 +29908,7 @@
 		"difficulty": "Past",
 		"isPrimary": true,
 		"level": "3",
-		"levelNum": 3,
+		"levelNum": 3.5,
 		"playtype": "Touch",
 		"songID": 342,
 		"versions": [
@@ -30756,7 +30756,7 @@
 		"difficulty": "Beyond",
 		"isPrimary": true,
 		"level": "11",
-		"levelNum": 11.1,
+		"levelNum": 11.2,
 		"playtype": "Touch",
 		"songID": 360,
 		"versions": [
@@ -34673,7 +34673,7 @@
 		"chartID": "c37b7ae7f1ea28e0a1dceed8a5658fa926b3b0db",
 		"data": {
 			"inGameStrID": "astralexe",
-			"notecount": 0
+			"notecount": 1059
 		},
 		"difficulty": "Future",
 		"isPrimary": true,
@@ -34689,7 +34689,7 @@
 		"chartID": "37f188c1df6f63498128588be2a6800c6c997d9b",
 		"data": {
 			"inGameStrID": "astralexe",
-			"notecount": 0
+			"notecount": 654
 		},
 		"difficulty": "Past",
 		"isPrimary": true,
@@ -34705,7 +34705,7 @@
 		"chartID": "860434426397a69427baae5d7191e8b4c4c7d6e7",
 		"data": {
 			"inGameStrID": "astralexe",
-			"notecount": 0
+			"notecount": 734
 		},
 		"difficulty": "Present",
 		"isPrimary": true,
