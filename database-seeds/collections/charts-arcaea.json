@@ -1308,7 +1308,7 @@
 		"difficulty": "Beyond",
 		"isPrimary": true,
 		"level": "9",
-		"levelNum": 9,
+		"levelNum": 9.1,
 		"playtype": "Touch",
 		"songID": 13,
 		"versions": [
@@ -1901,7 +1901,7 @@
 		"difficulty": "Present",
 		"isPrimary": true,
 		"level": "7",
-		"levelNum": 7,
+		"levelNum": 7.5,
 		"playtype": "Touch",
 		"songID": 19,
 		"versions": [
@@ -2458,7 +2458,7 @@
 		"difficulty": "Beyond",
 		"isPrimary": true,
 		"level": "10",
-		"levelNum": 10.1,
+		"levelNum": 10.3,
 		"playtype": "Touch",
 		"songID": 25,
 		"versions": [
@@ -4905,7 +4905,7 @@
 		"difficulty": "Future",
 		"isPrimary": true,
 		"level": "9+",
-		"levelNum": 9.7,
+		"levelNum": 9.9,
 		"playtype": "Touch",
 		"songID": 53,
 		"versions": [
@@ -9661,7 +9661,7 @@
 		"difficulty": "Future",
 		"isPrimary": true,
 		"level": "10",
-		"levelNum": 10.4,
+		"levelNum": 10.3,
 		"playtype": "Touch",
 		"songID": 106,
 		"versions": [
@@ -10993,7 +10993,7 @@
 		"difficulty": "Beyond",
 		"isPrimary": true,
 		"level": "9",
-		"levelNum": 9.5,
+		"levelNum": 9.6,
 		"playtype": "Touch",
 		"songID": 119,
 		"versions": [
@@ -11504,7 +11504,7 @@
 		"difficulty": "Future",
 		"isPrimary": true,
 		"level": "9",
-		"levelNum": 9,
+		"levelNum": 9.1,
 		"playtype": "Touch",
 		"songID": 124,
 		"versions": [
@@ -12993,7 +12993,7 @@
 		"difficulty": "Future",
 		"isPrimary": true,
 		"level": "10",
-		"levelNum": 10.4,
+		"levelNum": 10.2,
 		"playtype": "Touch",
 		"songID": 141,
 		"versions": [
@@ -17213,7 +17213,7 @@
 		"difficulty": "Future",
 		"isPrimary": true,
 		"level": "9+",
-		"levelNum": 9.8,
+		"levelNum": 9.9,
 		"playtype": "Touch",
 		"songID": 183,
 		"versions": [
@@ -19539,7 +19539,7 @@
 		"difficulty": "Future",
 		"isPrimary": true,
 		"level": "10",
-		"levelNum": 10.4,
+		"levelNum": 10.5,
 		"playtype": "Touch",
 		"songID": 212,
 		"versions": [
@@ -21618,7 +21618,7 @@
 		"difficulty": "Future",
 		"isPrimary": true,
 		"level": "9+",
-		"levelNum": 9.7,
+		"levelNum": 9.8,
 		"playtype": "Touch",
 		"songID": 233,
 		"versions": [
@@ -24125,7 +24125,7 @@
 		"difficulty": "Future",
 		"isPrimary": true,
 		"level": "10",
-		"levelNum": 10.2,
+		"levelNum": 10.1,
 		"playtype": "Touch",
 		"songID": 258,
 		"versions": [
@@ -25610,7 +25610,7 @@
 		"difficulty": "Future",
 		"isPrimary": true,
 		"level": "9",
-		"levelNum": 9.3,
+		"levelNum": 9.4,
 		"playtype": "Touch",
 		"songID": 273,
 		"versions": [
@@ -27956,7 +27956,7 @@
 		"difficulty": "Future",
 		"isPrimary": true,
 		"level": "9",
-		"levelNum": 9.3,
+		"levelNum": 9.4,
 		"playtype": "Touch",
 		"songID": 302,
 		"versions": [
@@ -29700,7 +29700,7 @@
 		"difficulty": "Future",
 		"isPrimary": true,
 		"level": "9",
-		"levelNum": 9.5,
+		"levelNum": 9.4,
 		"playtype": "Touch",
 		"songID": 338,
 		"versions": [
@@ -30084,7 +30084,7 @@
 		"difficulty": "Future",
 		"isPrimary": true,
 		"level": "10",
-		"levelNum": 10.4,
+		"levelNum": 10.5,
 		"playtype": "Touch",
 		"songID": 346,
 		"versions": [
@@ -30868,7 +30868,7 @@
 		"difficulty": "Future",
 		"isPrimary": true,
 		"level": "9+",
-		"levelNum": 9.9,
+		"levelNum": 9.8,
 		"playtype": "Touch",
 		"songID": 363,
 		"versions": [
@@ -31250,7 +31250,7 @@
 		"difficulty": "Present",
 		"isPrimary": true,
 		"level": "8",
-		"levelNum": 8,
+		"levelNum": 8.2,
 		"playtype": "Touch",
 		"songID": 368,
 		"versions": [
@@ -31462,7 +31462,7 @@
 		"difficulty": "Future",
 		"isPrimary": true,
 		"level": "10",
-		"levelNum": 10,
+		"levelNum": 10.1,
 		"playtype": "Touch",
 		"songID": 372,
 		"versions": [
@@ -32886,7 +32886,7 @@
 		"difficulty": "Eternal",
 		"isPrimary": true,
 		"level": "10",
-		"levelNum": 10.4,
+		"levelNum": 10.5,
 		"playtype": "Touch",
 		"songID": 399,
 		"versions": [
@@ -33222,7 +33222,7 @@
 		"difficulty": "Future",
 		"isPrimary": true,
 		"level": "9+",
-		"levelNum": 9.7,
+		"levelNum": 9.8,
 		"playtype": "Touch",
 		"songID": 405,
 		"versions": [
@@ -33366,7 +33366,7 @@
 		"difficulty": "Future",
 		"isPrimary": true,
 		"level": "9+",
-		"levelNum": 9.8,
+		"levelNum": 9.9,
 		"playtype": "Touch",
 		"songID": 408,
 		"versions": [
@@ -34726,7 +34726,7 @@
 		"difficulty": "Eternal",
 		"isPrimary": true,
 		"level": "9+",
-		"levelNum": 9.7,
+		"levelNum": 9.8,
 		"playtype": "Touch",
 		"songID": 432,
 		"versions": [
@@ -34806,7 +34806,7 @@
 		"difficulty": "Past",
 		"isPrimary": true,
 		"level": "4",
-		"levelNum": 4,
+		"levelNum": 4.5,
 		"playtype": "Touch",
 		"songID": 433,
 		"versions": [
@@ -34822,7 +34822,7 @@
 		"difficulty": "Present",
 		"isPrimary": true,
 		"level": "7",
-		"levelNum": 7,
+		"levelNum": 7.5,
 		"playtype": "Touch",
 		"songID": 433,
 		"versions": [
@@ -34870,7 +34870,7 @@
 		"difficulty": "Past",
 		"isPrimary": true,
 		"level": "4",
-		"levelNum": 4,
+		"levelNum": 4.5,
 		"playtype": "Touch",
 		"songID": 434,
 		"versions": [
@@ -34918,7 +34918,7 @@
 		"difficulty": "Past",
 		"isPrimary": true,
 		"level": "5",
-		"levelNum": 5,
+		"levelNum": 5.5,
 		"playtype": "Touch",
 		"songID": 435,
 		"versions": [
@@ -35030,7 +35030,7 @@
 		"difficulty": "Past",
 		"isPrimary": true,
 		"level": "4",
-		"levelNum": 4,
+		"levelNum": 4.5,
 		"playtype": "Touch",
 		"songID": 437,
 		"versions": [
@@ -35094,7 +35094,7 @@
 		"difficulty": "Past",
 		"isPrimary": true,
 		"level": "4",
-		"levelNum": 4,
+		"levelNum": 4.5,
 		"playtype": "Touch",
 		"songID": 438,
 		"versions": [
@@ -35158,7 +35158,7 @@
 		"difficulty": "Past",
 		"isPrimary": true,
 		"level": "5",
-		"levelNum": 5,
+		"levelNum": 5.5,
 		"playtype": "Touch",
 		"songID": 439,
 		"versions": [
@@ -35222,7 +35222,7 @@
 		"difficulty": "Past",
 		"isPrimary": true,
 		"level": "6",
-		"levelNum": 6,
+		"levelNum": 6.5,
 		"playtype": "Touch",
 		"songID": 440,
 		"versions": [
